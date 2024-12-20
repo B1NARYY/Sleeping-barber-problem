@@ -19,29 +19,29 @@ customers_log_path = os.path.join(RUN_DIR_PATH, "customers.log")
 # Open log files for writing
 chat_log_file = open(chat_log_path, 'w', encoding='utf-8')
 customers_log_file = open(customers_log_path, 'w', encoding='utf-8')
-
 def user_print(msg, level="info"):
     """
     Prints a message to the console with color and writes it to the chat log file.
 
     Args:
         msg (str): The message to log and display.
-        level (str): The level of the message (info, success, warning, error).
+        level (str): The level of the message (info, success, simulation, command).
     """
     if level == "info":
         colored_msg = f"{Fore.CYAN}{msg}{Style.RESET_ALL}"
     elif level == "success":
         colored_msg = f"{Fore.GREEN}{msg}{Style.RESET_ALL}"
-    elif level == "warning":
-        colored_msg = f"{Fore.YELLOW}{msg}{Style.RESET_ALL}"
-    elif level == "error":
-        colored_msg = f"{Fore.RED}{msg}{Style.RESET_ALL}"
+    elif level == "simulation":
+        colored_msg = f"{Fore.BLUE}{msg}{Style.RESET_ALL}"
+    elif level == "command":
+        colored_msg = f"{Fore.YELLOW}{msg}{Style.RESET_ALL}"  # Oranžová barva pro příkaz
     else:
-        colored_msg = msg  # No color for unknown levels
+        colored_msg = msg  # Výchozí barva pro ostatní úrovně
 
     print(colored_msg)
     chat_log_file.write(msg + "\n")
     chat_log_file.flush()
+
 
 def print_config_file():
     """
