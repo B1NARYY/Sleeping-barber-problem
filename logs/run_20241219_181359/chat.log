@@ -1,0 +1,68 @@
+##################################################
+{
+  "initial_urls": ["https://www.idnes.cz/"],
+  "crawler_count": 1,
+  "producer_interval": 1,
+  "run_time": 5,
+  "delay_seconds": [0.5, 1],
+  "keywords": ["politika", "sport", "ekonomika"],
+  "max_customers": 10,
+  "max_queue_size": 5,
+  "links_range": [0, 3]
+}
+
+##################################################
+Enter a command (help for usage):
+Barber is sleeping...
+Barber wakes up...
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 94, 'ekonomika': 21}
+Barber found 3 new customers.
+Barber processes: https://www.jobdnes.cz/#utm_source=sph.idnes&utm_medium=text&utm_content=navigace-dalsi
+Barber analyzed page: {'politika': 0, 'sport': 4, 'ekonomika': 2}
+Barber found 0 new customers.
+Barber processes: https://www.expres.cz/video
+Barber analyzed page: {'politika': 0, 'sport': 2, 'ekonomika': 0}
+Barber found 1 new customers.
+Barber processes: https://www.idnes.cz/premium?zdroj=menu
+Barber analyzed page: {'politika': 0, 'sport': 42, 'ekonomika': 3}
+Barber found 1 new customers.
+Barber processes: https://www.expres.cz/video/celebrity
+Barber analyzed page: {'politika': 0, 'sport': 2, 'ekonomika': 0}
+Barber found 2 new customers.
+Barber processes: https://www.idnes.cz/zpravy/domaci/vilem-dusan-lambl-uplavice-srdecni-chlopen-nemcova-lekar.A241218_172226_domaci_vals
+Barber analyzed page: {'politika': 7, 'sport': 25, 'ekonomika': 8}
+Barber found 1 new customers.
+Barber processes: https://www.expres.cz/video
+Barber analyzed page: {'politika': 0, 'sport': 2, 'ekonomika': 0}
+Barber found 1 new customers.
+Barber processes: https://www.expres.cz/video/celebrity/le-sy-a-jeho-parnterka-denisa-z-clashe-plavou-mezi-zraloky-na-maledivach.V241213_102458_denniexpres-video_lare
+Barber analyzed page: {'politika': 0, 'sport': 2, 'ekonomika': 0}
+Barber found 1 new customers.
+Barber processes: https://www.idnes.cz/wiki/obecne/migrace.K5000041
+Barber analyzed page: {'politika': 12, 'sport': 29, 'ekonomika': 19}
+Barber found 0 new customers.
+Barber processes: https://www.expres.cz/video/celebrity
+Barber analyzed page: {'politika': 0, 'sport': 2, 'ekonomika': 0}
+Barber found 2 new customers.
+Barber is done for the day!
+Processed customers:
+URL: https://www.idnes.cz/, Keywords: {'politika': 0, 'sport': 94, 'ekonomika': 21}, New Links: 438
+URL: https://www.jobdnes.cz/#utm_source=sph.idnes&utm_medium=text&utm_content=navigace-dalsi, Keywords: {'politika': 0, 'sport': 4, 'ekonomika': 2}, New Links: 114
+URL: https://www.expres.cz/video, Keywords: {'politika': 0, 'sport': 2, 'ekonomika': 0}, New Links: 37
+URL: https://www.idnes.cz/premium?zdroj=menu, Keywords: {'politika': 0, 'sport': 42, 'ekonomika': 3}, New Links: 236
+URL: https://www.expres.cz/video/celebrity, Keywords: {'politika': 0, 'sport': 2, 'ekonomika': 0}, New Links: 37
+URL: https://www.idnes.cz/zpravy/domaci/vilem-dusan-lambl-uplavice-srdecni-chlopen-nemcova-lekar.A241218_172226_domaci_vals, Keywords: {'politika': 7, 'sport': 25, 'ekonomika': 8}, New Links: 252
+URL: https://www.expres.cz/video, Keywords: {'politika': 0, 'sport': 2, 'ekonomika': 0}, New Links: 37
+URL: https://www.expres.cz/video/celebrity/le-sy-a-jeho-parnterka-denisa-z-clashe-plavou-mezi-zraloky-na-maledivach.V241213_102458_denniexpres-video_lare, Keywords: {'politika': 0, 'sport': 2, 'ekonomika': 0}, New Links: 35
+URL: https://www.idnes.cz/wiki/obecne/migrace.K5000041, Keywords: {'politika': 12, 'sport': 29, 'ekonomika': 19}, New Links: 259
+URL: https://www.expres.cz/video/celebrity, Keywords: {'politika': 0, 'sport': 2, 'ekonomika': 0}, New Links: 37
+Barber is done for the day.
+Barber processes: https://www.expres.cz/video/celebrity
+Barber analyzed page: {'politika': 0, 'sport': 2, 'ekonomika': 0}
+Barber found 2 new customers.
+Barber is still working...
+Barber processes: https://www.expres.cz/video/celebrity/jana-paulova-stardance-rozhovor.V241215_161607_denniexpres-video_haku
+Barber analyzed page: {'politika': 0, 'sport': 2, 'ekonomika': 0}
+Barber found 1 new customers.
+Barber is done for the day!

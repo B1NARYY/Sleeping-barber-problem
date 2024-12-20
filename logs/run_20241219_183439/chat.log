@@ -1,0 +1,96 @@
+##################################################
+{
+  "initial_urls": [
+    "https://www.idnes.cz/"
+  ],
+  "crawler_count": 1,
+  "producer_interval": 1,
+  "run_time": 5,
+  "delay_seconds": [
+    0.5,
+    1
+  ],
+  "keywords": [
+    "politika",
+    "sport",
+    "ekonomika"
+  ],
+  "max_customers": 10,
+  "max_queue_size": 5,
+  "links_range": [0, 1]
+}
+##################################################
+Enter a command (help for usage):
+Barber is sleeping... (processed: 0)
+Barber wakes up...
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 90, 'ekonomika': 20}
+Barber found 1 new customers. (processed: 0, in queue: 1)
+Barber processes: https://tv.idnes.cz/archiv
+Barber analyzed page: {'politika': 0, 'sport': 2, 'ekonomika': 0}
+Barber found 0 new customers. (processed: 1, in queue: 0)
+Barber is sleeping... (processed: 2)
+Barber is done for the day!
+Processed customers:
+URL: https://www.idnes.cz/, Keywords: {'politika': 0, 'sport': 90, 'ekonomika': 20}, New Links: 437
+URL: https://tv.idnes.cz/archiv, Keywords: {'politika': 0, 'sport': 2, 'ekonomika': 0}, New Links: 54
+Barber is sleeping... (processed: 2)
+Barber wakes up...
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 90, 'ekonomika': 20}
+Barber found 1 new customers. (processed: 2, in queue: 1)
+Barber processes: https://www.idnes.cz/sport/ostatni
+Barber analyzed page: {'politika': 0, 'sport': 244, 'ekonomika': 9}
+Barber found 1 new customers. (processed: 3, in queue: 1)
+Barber processes: https://www.idnes.cz/volby
+Barber analyzed page: {'politika': 27, 'sport': 28, 'ekonomika': 8}
+Barber found 1 new customers. (processed: 4, in queue: 1)
+Barber processes: https://tv.idnes.cz/rozstrel
+Barber analyzed page: {'politika': 0, 'sport': 3, 'ekonomika': 0}
+Barber found 1 new customers. (processed: 5, in queue: 1)
+Barber processes: https://tv.idnes.cz/spolecnost.aspx
+Barber analyzed page: {'politika': 0, 'sport': 2, 'ekonomika': 0}
+Barber found 1 new customers. (processed: 6, in queue: 1)
+Barber processes: https://tv.idnes.cz/spolecnost?setver=touch
+Barber analyzed page: {'politika': 0, 'sport': 0, 'ekonomika': 0}
+Barber found 0 new customers. (processed: 7, in queue: 0)
+Barber is sleeping... (processed: 8)
+Barber is done for the day!
+Processed customers:
+URL: https://www.idnes.cz/, Keywords: {'politika': 0, 'sport': 90, 'ekonomika': 20}, New Links: 437
+URL: https://tv.idnes.cz/archiv, Keywords: {'politika': 0, 'sport': 2, 'ekonomika': 0}, New Links: 54
+URL: https://www.idnes.cz/, Keywords: {'politika': 0, 'sport': 90, 'ekonomika': 20}, New Links: 437
+URL: https://www.idnes.cz/sport/ostatni, Keywords: {'politika': 0, 'sport': 244, 'ekonomika': 9}, New Links: 260
+URL: https://www.idnes.cz/volby, Keywords: {'politika': 27, 'sport': 28, 'ekonomika': 8}, New Links: 368
+URL: https://tv.idnes.cz/rozstrel, Keywords: {'politika': 0, 'sport': 3, 'ekonomika': 0}, New Links: 50
+URL: https://tv.idnes.cz/spolecnost.aspx, Keywords: {'politika': 0, 'sport': 2, 'ekonomika': 0}, New Links: 55
+URL: https://tv.idnes.cz/spolecnost?setver=touch, Keywords: {'politika': 0, 'sport': 0, 'ekonomika': 0}, New Links: 22
+Barber is sleeping... (processed: 8)
+Barber wakes up...
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 76, 'ekonomika': 23}
+Barber found 1 new customers. (processed: 8, in queue: 1)
+Barber processes: https://www.idnes.cz/auto/zpravodajstvi/skoda-favorit.A241218_144222_automoto_fdv
+Barber is still working... (processed: 9, in queue: 0)
+Barber analyzed page: {'politika': 0, 'sport': 25, 'ekonomika': 6}
+Barber found 1 new customers. (processed: 9, in queue: 1)
+Barber processes: https://www.idnes.cz/auto/zpravodajstvi/petr-hrdlicka-skoda-favorit-konstrukter-vyroci.A240910_070517_automoto_fdv
+Barber analyzed page: {'politika': 0, 'sport': 26, 'ekonomika': 4}
+Barber found 0 new customers. (processed: 10, in queue: 0)
+Barber is sleeping... (processed: 11)
+Barber is still working... (processed: 11, in queue: 0)
+Barber is done for the day!
+Processed customers:
+URL: https://www.idnes.cz/, Keywords: {'politika': 0, 'sport': 90, 'ekonomika': 20}, New Links: 437
+URL: https://tv.idnes.cz/archiv, Keywords: {'politika': 0, 'sport': 2, 'ekonomika': 0}, New Links: 54
+URL: https://www.idnes.cz/, Keywords: {'politika': 0, 'sport': 90, 'ekonomika': 20}, New Links: 437
+URL: https://www.idnes.cz/sport/ostatni, Keywords: {'politika': 0, 'sport': 244, 'ekonomika': 9}, New Links: 260
+URL: https://www.idnes.cz/volby, Keywords: {'politika': 27, 'sport': 28, 'ekonomika': 8}, New Links: 368
+URL: https://tv.idnes.cz/rozstrel, Keywords: {'politika': 0, 'sport': 3, 'ekonomika': 0}, New Links: 50
+URL: https://tv.idnes.cz/spolecnost.aspx, Keywords: {'politika': 0, 'sport': 2, 'ekonomika': 0}, New Links: 55
+URL: https://tv.idnes.cz/spolecnost?setver=touch, Keywords: {'politika': 0, 'sport': 0, 'ekonomika': 0}, New Links: 22
+URL: https://www.idnes.cz/, Keywords: {'politika': 0, 'sport': 76, 'ekonomika': 23}, New Links: 385
+URL: https://www.idnes.cz/auto/zpravodajstvi/skoda-favorit.A241218_144222_automoto_fdv, Keywords: {'politika': 0, 'sport': 25, 'ekonomika': 6}, New Links: 239
+URL: https://www.idnes.cz/auto/zpravodajstvi/petr-hrdlicka-skoda-favorit-konstrukter-vyroci.A240910_070517_automoto_fdv, Keywords: {'politika': 0, 'sport': 26, 'ekonomika': 4}, New Links: 251
+Barber is done for the day. (processed: 11)
+Barber is done for the day. (processed: 11)

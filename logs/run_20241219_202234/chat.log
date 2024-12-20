@@ -1,0 +1,41 @@
+##################################################
+{
+  "initial_urls": [
+    "https://www.idnes.cz/"
+  ],
+  "crawler_count": 2,
+  "producer_interval": 1,
+  "run_time": 5,
+  "delay_seconds": [
+    0.5,
+    1
+  ],
+  "keywords": [
+    "politika",
+    "sport",
+    "ekonomika"
+  ],
+  "max_customers": 10,
+  "max_queue_size": 5,
+  "links_range": [
+    0,
+    2
+  ]
+}
+##################################################
+Enter a command (help for usage):
+Barber is sleeping... (processed: 0/10 , queue: 0/5)
+Barber is sleeping... (processed: 0/10 , queue: 0/5)
+Barber wakes up...
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 99, 'ekonomika': 29}
+Barber wakes up...
+Barber found 1 new customers. (processed: 1/10, queue: 0/5)
+Barber processes: https://www.jobdnes.cz/#utm_source=sph.idnes&utm_medium=text&utm_content=navigace-dalsi
+Barber is sleeping... (processed: 1/10 , queue: 0/5)
+Barber analyzed page: {'politika': 0, 'sport': 4, 'ekonomika': 2}
+Barber found 1 new customers. (processed: 2/10, queue: 1/5)
+Barber processes: https://www.jobdnes.cz/rady-a-tipy/nase-reference
+Barber analyzed page: {'politika': 0, 'sport': 0, 'ekonomika': 0}
+Barber found 0 new customers. (processed: 3/10, queue: 0/5)
+Barber is sleeping... (processed: 3/10 , queue: 0/5)

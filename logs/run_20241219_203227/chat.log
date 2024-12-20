@@ -1,0 +1,16 @@
+##################################################
+{
+  "initial_urls": ["https://www.idnes.cz/"],
+  "crawler_count": 2,
+  "producer_interval": 1,
+  "run_time": 5,
+  "delay_seconds": [0.5, 1],
+  "keywords": ["politika","sport","ekonomika"],
+  "max_customers": 10,
+  "max_queue_size": 5,
+  "links_range": [0, 2],
+  "enable_wakeup_from_stored_urls": true
+}
+
+##################################################
+Enter a command (help for usage):

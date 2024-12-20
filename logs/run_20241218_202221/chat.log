@@ -1,0 +1,19 @@
+##################################################
+{
+  "initial_urls": ["https://www.idnes.cz/"],
+  "crawler_count": 1,
+  "producer_interval": 5,
+  "run_time": 30,
+  "delay_seconds": [3, 7],
+  "keywords": ["politika", "sport", "ekonomika"],
+  "max_customers": 20,
+  "max_queue_size": 50
+}
+
+##################################################
+(Console) Enter a command (help for usage):
+Barber is sleeping...
+Barber wakes up...
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 93, 'ekonomika': 16}
+Barber found 437 new customers (links on the page).

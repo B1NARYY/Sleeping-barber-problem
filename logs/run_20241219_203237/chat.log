@@ -1,0 +1,47 @@
+###################################Available commands:
+ help   - show this help message
+ start  - start the barber
+ stop   - stop the barber
+ status - show current status
+ edit   - edit config.json
+ exit   - exit the program
+Barber#1 is sleeping... (processed: 0/10 , queue: 0/5)
+Barber#2 is sleeping... (processed: 0/10 , queue: 0/5)
+Barber#1 wakes up...
+Barber#1 processes: https://www.idnes.cz/
+Barber#2 is sleeping... (processed: 0/10 , queue: 0/5)
+Barber#1 analyzed page: {'politika': 0, 'sport': 100, 'ekonomika': 30}
+Barber#1 found 2 new customers. (processed: 1/10, queue: 2/5)
+Barber#2 wakes up...
+Barber#2 processes: https://www.idnes.cz/cestovani
+Barber#1 processes: https://www.idnes.cz/kraje
+Barber#2 analyzed page: {'politika': 0, 'sport': 28, 'ekonomika': 10}
+Barber#2 found 2 new customers. (processed: 2/10, queue: 2/5)
+Barber#1 analyzed page: {'politika': 7, 'sport': 79, 'ekonomika': 11}
+Barber#1 found 2 new customers. (processed: 3/10, queue: 4/5)
+Barber#2 processes: https://www.idnes.cz/cestovani/po-cesku/hotely-pouze-pro-dospele-adult-only-dovolena-odpocinek-rodice-deti.A241209_111453_po-cesku_hig
+Barber#1 processes: https://www.idnes.cz/hokej/ms-2025
+Barber#1 analyzed page: {'politika': 0, 'sport': 86, 'ekonomika': 6}
+Barber#1 found 0 new customers. (processed: 4/10, queue: 2/5)
+Barber#2 analyzed page: {'politika': 0, 'sport': 26, 'ekonomika': 6}
+Barber#2 found 1 new customers. (processed: 5/10, queue: 3/5)
+Barber#1 processes: https://www.metro.cz/praha/jiri-kara-slavny-opilec-a-hrdina-prvniho-viralu-v-cesku-se-vraci.A191202_101528_metro-praha_hyr
+Barber#2 processes: https://www.idnes.cz/wiki/obecne/vanocni-trhy.K5073569
+Barber#1 analyzed page: {'politika': 0, 'sport': 0, 'ekonomika': 0}
+Barber#1 found 0 new customers. (processed: 6/10, queue: 1/5)
+Barber#1 processes: https://www.idnes.cz/rss
+Barber#2 analyzed page: {'politika': 9, 'sport': 31, 'ekonomika': 18}
+Barber#2 found 2 new customers. (processed: 7/10, queue: 2/5)
+Barber#2 processes: https://www.idnes.cz/hradec-kralove/zpravy/test-vanocni-trhy-hradec-kralove-kluziste-kyvadlova-doprava-svarak.A231211_040413_hradec-zpravy_the
+Barber#1 analyzed page: {'politika': 6, 'sport': 31, 'ekonomika': 15}
+Barber#1 found 2 new customers. (processed: 8/10, queue: 3/5)
+Barber#2 analyzed page: {'politika': 6, 'sport': 32, 'ekonomika': 5}
+Barber#2 found 0 new customers. (processed: 9/10, queue: 3/5)
+Barber#1 processes: https://www.idnes.cz/magaziny
+Barber#2 processes: https://www.idnes.cz/karlovy-vary
+Barber#1 analyzed page: {'politika': 6, 'sport': 31, 'ekonomika': 8}
+Barber#1 found 0 new customers. (processed: 10/10, queue: 1/5)
+Barber#2 analyzed page: {'politika': 7, 'sport': 33, 'ekonomika': 12}
+Barber#2 found 1 new customers. (processed: 11/10, queue: 2/5)
+Barber is done for the day!
+Barber is done for the day!

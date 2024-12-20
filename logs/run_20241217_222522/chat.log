@@ -1,0 +1,15 @@
+##################################################
+{
+  "initial_urls": ["https://www.idnes.cz/"],
+  "crawler_count": 1,
+  "producer_interval": 5,
+  "run_time": 30,
+  "delay_seconds": 5,
+  "keywords": ["politika", "sport", "ekonomika"]
+}
+
+##################################################
+(Console) Enter a command (help for usage):
+Barber is sleeping...
+Barber wakes up and processes: https://www.idnes.cz/
+Crawler has started.

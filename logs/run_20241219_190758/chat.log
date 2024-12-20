@@ -1,0 +1,67 @@
+##################################################
+{
+  "initial_urls": [
+    "https://www.idnes.cz/"
+  ],
+  "crawler_count": 1,
+  "producer_interval": 1,
+  "run_time": 5,
+  "delay_seconds": [
+    0.5,
+    1
+  ],
+  "keywords": [
+    "politika",
+    "sport",
+    "ekonomika"
+  ],
+  "max_customers": 10,
+  "max_queue_size": 5,
+  "links_range": [0, 1]
+}
+##################################################
+Enter a command (help for usage):
+Unknown command: asdiusrhguíghaetíu hww iéetuíwehtuí. Type 'help' for usage.
+Available commands:
+ help   - show this help message
+ start  - start the barber
+ stop   - stop the barber
+ status - show current status
+ exit   - exit the program
+ edit   - edit config.json
+Barber is sleeping...
+Barber wakes up...
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 95, 'ekonomika': 23}
+Barber found 1 new customers.
+Barber processes: https://www.idnes.cz/zpravy/revue/spolecnost/lily-rose-depp-bratr-jack-vztah-s-rodici-detstvi-film-nosferatu.A241205_190643_lidicky_potu
+Barber analyzed page: {'politika': 0, 'sport': 26, 'ekonomika': 3}
+Barber found 1 new customers.
+Barber processes: https://www.expres.cz/celebrity/stardance.K958058
+Barber analyzed page: {'politika': 0, 'sport': 10, 'ekonomika': 0}
+Barber found 0 new customers.
+Barber is sleeping...
+Barber is done for the day!
+Processed customers:
+URL: https://www.idnes.cz/, Keywords: {'politika': 0, 'sport': 95, 'ekonomika': 23}, New Links: 440
+URL: https://www.idnes.cz/zpravy/revue/spolecnost/lily-rose-depp-bratr-jack-vztah-s-rodici-detstvi-film-nosferatu.A241205_190643_lidicky_potu, Keywords: {'politika': 0, 'sport': 26, 'ekonomika': 3}, New Links: 225
+URL: https://www.expres.cz/celebrity/stardance.K958058, Keywords: {'politika': 0, 'sport': 10, 'ekonomika': 0}, New Links: 164
+Enter a command (help for usage):
+Barber is sleeping...
+Barber wakes up...
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 95, 'ekonomika': 23}
+Barber found 1 new customers.
+Barber processes: https://www.expres.cz/sport/jaromir-jagr-noc-s-legendou-maminka-slzy-dara-rolins-pavel-nedved-dcera.A241219_094843_dx-celebrity_lare
+Barber analyzed page: {'politika': 1, 'sport': 65, 'ekonomika': 5}
+Barber found 1 new customers.
+Barber processes: http://www.facebook.com/share.php?u=https%3a%2f%2fwww.expres.cz%2fsport%2fjaromir-jagr-noc-s-legendou-maminka-slzy-dara-rolins-pavel-nedved-dcera.A241219_094843_dx-celebrity_lare%3futm_source%3dfacebook%26utm_medium%3dsharecd%26utm_campaign%3ddesktop&st=J%c3%a1grova+velk%c3%a1+noc%3a+Plakal+on+i+maminka!+Zamilovan%c3%a1+Dara+vyvedla+kr%c3%a1snou+dceru+s+hol%c3%bdm+b%c5%99ichem!+-+Expres.cz&si=https%3a%2f%2f1gr.cz%2ffotky%2fbulvar%2f24%2f122%2fcl6%2fLAR4f4fcf031a_EXCZ52730_Noc.jpg
+Barber analyzed page: {'politika': 0, 'sport': 31, 'ekonomika': 0}
+Barber found 0 new customers.
+Barber is sleeping...
+Barber is done for the day!
+Processed customers:
+URL: https://www.idnes.cz/, Keywords: {'politika': 0, 'sport': 95, 'ekonomika': 23}, New Links: 440
+URL: https://www.expres.cz/sport/jaromir-jagr-noc-s-legendou-maminka-slzy-dara-rolins-pavel-nedved-dcera.A241219_094843_dx-celebrity_lare, Keywords: {'politika': 1, 'sport': 65, 'ekonomika': 5}, New Links: 193
+URL: http://www.facebook.com/share.php?u=https%3a%2f%2fwww.expres.cz%2fsport%2fjaromir-jagr-noc-s-legendou-maminka-slzy-dara-rolins-pavel-nedved-dcera.A241219_094843_dx-celebrity_lare%3futm_source%3dfacebook%26utm_medium%3dsharecd%26utm_campaign%3ddesktop&st=J%c3%a1grova+velk%c3%a1+noc%3a+Plakal+on+i+maminka!+Zamilovan%c3%a1+Dara+vyvedla+kr%c3%a1snou+dceru+s+hol%c3%bdm+b%c5%99ichem!+-+Expres.cz&si=https%3a%2f%2f1gr.cz%2ffotky%2fbulvar%2f24%2f122%2fcl6%2fLAR4f4fcf031a_EXCZ52730_Noc.jpg, Keywords: {'politika': 0, 'sport': 31, 'ekonomika': 0}, New Links: 49
+Enter a command (help for usage):

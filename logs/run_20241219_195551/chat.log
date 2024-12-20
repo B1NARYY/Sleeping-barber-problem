@@ -1,0 +1,48 @@
+##################################################
+{
+  "initial_urls": [
+    "https://www.idnes.cz/"
+  ],
+  "crawler_count": 1,
+  "producer_interval": 1,
+  "run_time": 5,
+  "delay_seconds": [
+    0.5,
+    1
+  ],
+  "keywords": [
+    "politika",
+    "sport",
+    "ekonomika"
+  ],
+  "max_customers": 10,
+  "max_queue_size": 5,
+  "links_range": [0, 1]
+}
+##################################################
+Enter a command (help for usage):
+Barber is sleeping... (processed: 0/10 , queue: 0/5)
+Barber wakes up...
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 99, 'ekonomika': 39}
+Barber found 1 new customers. (processed: 1/10, queue: 1/5)
+Barber processes: https://pocasi.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 23, 'ekonomika': 10}
+Barber found 1 new customers. (processed: 2/10, queue: 1/5)
+Barber processes: https://www.idnes.cz/wiki/obecne/snih.K5311787
+Barber analyzed page: {'politika': 9, 'sport': 32, 'ekonomika': 17}
+Barber found 0 new customers. (processed: 3/10, queue: 0/5)
+Barber is sleeping... (processed: 3/10 , queue: 0/5)
+Barber is done for the day!
+Processed customers:
+URL: https://www.idnes.cz/, Keywords: {'politika': 0, 'sport': 99, 'ekonomika': 39}, New Links: 440
+URL: https://pocasi.idnes.cz/, Keywords: {'politika': 0, 'sport': 23, 'ekonomika': 10}, New Links: 245
+URL: https://www.idnes.cz/wiki/obecne/snih.K5311787, Keywords: {'politika': 9, 'sport': 32, 'ekonomika': 17}, New Links: 231
+Enter a command (help for usage):
+Available commands:
+ help   - show this help message
+ start  - start the barber
+ stop   - stop the barber
+ status - show current status
+ exit   - exit the program
+ edit   - edit config.json

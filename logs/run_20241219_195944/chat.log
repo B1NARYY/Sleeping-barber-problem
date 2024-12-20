@@ -1,0 +1,106 @@
+##################################################
+{
+  "initial_urls": [
+    "https://www.idnes.cz/"
+  ],
+  "crawler_count": 1,
+  "producer_interval": 1,
+  "run_time": 5,
+  "delay_seconds": [
+    0.5,
+    1
+  ],
+  "keywords": [
+    "politika",
+    "sport",
+    "ekonomika"
+  ],
+  "max_customers": 10,
+  "max_queue_size": 5,
+  "links_range": [
+    0,
+    2
+  ]
+}
+##################################################
+Enter a command (help for usage):
+Barber is sleeping... (processed: 0/10 , queue: 0/5)
+Barber wakes up...
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 99, 'ekonomika': 39}
+Barber found 1 new customers. (processed: 1/10, queue: 1/5)
+Barber processes: https://www.idnes.cz/ceske-budejovice
+Barber analyzed page: {'politika': 7, 'sport': 38, 'ekonomika': 12}
+Barber found 1 new customers. (processed: 2/10, queue: 1/5)
+Barber processes: https://www.idnes.cz/hokej/extraliga/tomas-zohorna-ceske-budsjovice-rozhovor.A241213_831290_hokej_ten
+Barber analyzed page: {'politika': 0, 'sport': 144, 'ekonomika': 5}
+Barber found 2 new customers. (processed: 3/10, queue: 2/5)
+Barber processes: https://www.idnes.cz/hokej/databanka/hc-vitkovice-ridera.Utea67019?soutez=534
+Barber analyzed page: {'politika': 0, 'sport': 167, 'ekonomika': 7}
+Barber found 2 new customers. (processed: 4/10, queue: 3/5)
+Barber processes: https://www.jobdnes.cz/#utm_source=sph.idnes&utm_medium=text&utm_content=navigace-dalsi
+Barber analyzed page: {'politika': 0, 'sport': 4, 'ekonomika': 2}
+Barber found 2 new customers. (processed: 5/10, queue: 4/5)
+Barber processes: https://www.idnes.cz/hokej/databanka/hc-vitkovice-ridera.Utea67019
+Barber analyzed page: {'politika': 0, 'sport': 161, 'ekonomika': 10}
+Barber found 2 new customers. (processed: 6/10, queue: 5/5)
+Barber processes: https://www.idnes.cz/hokej/extraliga/hokej-extraliga-motor-budejovice-vitkovice-cibulka-rozhovor.A241205_110728_hokej_pkr
+Barber analyzed page: {'politika': 0, 'sport': 145, 'ekonomika': 5}
+Barber found 1 new customers. (processed: 7/10, queue: 5/5)
+Barber processes: https://www.jobdnes.cz/zamestnavatel/prezentace/profi
+Barber analyzed page: {'politika': 0, 'sport': 0, 'ekonomika': 0}
+Barber found 0 new customers. (processed: 8/10, queue: 4/5)
+Barber processes: https://www.jobdnes.cz/nabidky-prace/58f85b6ea5ad9504850a5aad-aures-holdings-a-s
+Barber analyzed page: {'politika': 0, 'sport': 2, 'ekonomika': 1}
+Barber found 1 new customers. (processed: 9/10, queue: 4/5)
+Barber processes: https://hokej.idnes.cz/databanka.aspx?t=hrac&id=2001589
+Barber analyzed page: {'politika': 0, 'sport': 86, 'ekonomika': 10}
+Barber found 1 new customers. (processed: 10/10, queue: 4/5)
+Barber is done for the day!
+Processed customers:
+URL: https://www.idnes.cz/, Keywords: {'politika': 0, 'sport': 99, 'ekonomika': 39}, New Links: 440
+URL: https://www.idnes.cz/ceske-budejovice, Keywords: {'politika': 7, 'sport': 38, 'ekonomika': 12}, New Links: 263
+URL: https://www.idnes.cz/hokej/extraliga/tomas-zohorna-ceske-budsjovice-rozhovor.A241213_831290_hokej_ten, Keywords: {'politika': 0, 'sport': 144, 'ekonomika': 5}, New Links: 277
+URL: https://www.idnes.cz/hokej/databanka/hc-vitkovice-ridera.Utea67019?soutez=534, Keywords: {'politika': 0, 'sport': 167, 'ekonomika': 7}, New Links: 985
+URL: https://www.jobdnes.cz/#utm_source=sph.idnes&utm_medium=text&utm_content=navigace-dalsi, Keywords: {'politika': 0, 'sport': 4, 'ekonomika': 2}, New Links: 114
+URL: https://www.idnes.cz/hokej/databanka/hc-vitkovice-ridera.Utea67019, Keywords: {'politika': 0, 'sport': 161, 'ekonomika': 10}, New Links: 985
+URL: https://www.idnes.cz/hokej/extraliga/hokej-extraliga-motor-budejovice-vitkovice-cibulka-rozhovor.A241205_110728_hokej_pkr, Keywords: {'politika': 0, 'sport': 145, 'ekonomika': 5}, New Links: 274
+URL: https://www.jobdnes.cz/zamestnavatel/prezentace/profi, Keywords: {'politika': 0, 'sport': 0, 'ekonomika': 0}, New Links: 62
+URL: https://www.jobdnes.cz/nabidky-prace/58f85b6ea5ad9504850a5aad-aures-holdings-a-s, Keywords: {'politika': 0, 'sport': 2, 'ekonomika': 1}, New Links: 175
+URL: https://hokej.idnes.cz/databanka.aspx?t=hrac&id=2001589, Keywords: {'politika': 0, 'sport': 86, 'ekonomika': 10}, New Links: 330
+This is end of the simulation.
+Enter a command (help for usage):
+Available commands:
+ help   - show this help message
+ start  - start the barber
+ stop   - stop the barber
+ status - show current status
+ edit   - edit config.json
+ exit   - exit the program
+Barber is sleeping... (processed: 0/10 , queue: 0/5)
+Barber wakes up...
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 100, 'ekonomika': 29}
+Barber found 2 new customers. (processed: 1/10, queue: 2/5)
+Barber processes: https://www.idnes.cz/?setver=touch
+Barber analyzed page: {'politika': 0, 'sport': 85, 'ekonomika': 35}
+Barber found 2 new customers. (processed: 2/10, queue: 3/5)
+Barber processes: https://www.idnes.cz/mobil
+Barber analyzed page: {'politika': 6, 'sport': 27, 'ekonomika': 8}
+Barber found 0 new customers. (processed: 3/10, queue: 2/5)
+Barber processes: https://www.idnes.cz/kraje
+Barber analyzed page: {'politika': 1, 'sport': 25, 'ekonomika': 3}
+Barber found 0 new customers. (processed: 4/10, queue: 1/5)
+Barber processes: https://www.idnes.cz/zpravy/revue
+Barber analyzed page: {'politika': 0, 'sport': 30, 'ekonomika': 7}
+Barber found 0 new customers. (processed: 5/10, queue: 0/5)
+Barber is sleeping... (processed: 5/10 , queue: 0/5)
+Barber is done for the day!
+Processed customers:
+URL: https://www.idnes.cz/, Keywords: {'politika': 0, 'sport': 100, 'ekonomika': 29}, New Links: 440
+URL: https://www.idnes.cz/?setver=touch, Keywords: {'politika': 0, 'sport': 85, 'ekonomika': 35}, New Links: 388
+URL: https://www.idnes.cz/mobil, Keywords: {'politika': 6, 'sport': 27, 'ekonomika': 8}, New Links: 279
+URL: https://www.idnes.cz/kraje, Keywords: {'politika': 1, 'sport': 25, 'ekonomika': 3}, New Links: 225
+URL: https://www.idnes.cz/zpravy/revue, Keywords: {'politika': 0, 'sport': 30, 'ekonomika': 7}, New Links: 252
+This is end of the simulation.
+Enter a command (help for usage):

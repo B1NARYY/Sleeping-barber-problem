@@ -1,0 +1,33 @@
+##################################################
+{
+  "initial_urls": [
+    "https://www.idnes.cz/"
+  ],
+  "crawler_count": 1,
+  "producer_interval": 1,
+  "run_time": 5,
+  "delay_seconds": [
+    0.5,
+    1
+  ],
+  "keywords": [
+    "politika",
+    "sport",
+    "ekonomika"
+  ],
+  "max_customers": 10,
+  "max_queue_size": 5,
+  "links_range": [0, 1]
+}
+##################################################
+Enter a command (help for usage):
+Barber is done for the day. (processed: 0)
+Barber is sleeping... (processed: 0)
+Barber wakes up...
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 90, 'ekonomika': 20}
+Barber found 0 new customers. (processed: 0, in queue: 0)
+Barber is sleeping... (processed: 1)
+Barber is done for the day!
+Processed customers:
+URL: https://www.idnes.cz/, Keywords: {'politika': 0, 'sport': 90, 'ekonomika': 20}, New Links: 437

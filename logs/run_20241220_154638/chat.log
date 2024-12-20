@@ -1,0 +1,27 @@
+Enter a command (help for usage):
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 114, 'ekonomika': 23}, found 442 links
+Barber processed customer (processed: 1/10)
+New customer added to queue (queue: 1/5)
+Barber processes: https://www.idnes.cz/onadnes
+New customer added to queue (queue: 1/5)
+Barber analyzed page: {'politika': 1, 'sport': 36, 'ekonomika': 7}, found 380 links
+Barber processed customer (processed: 2/10)
+New customer added to queue (queue: 2/5)
+Barber processes: https://www.mafra.cz/osobni-udaje
+New customer added to queue (queue: 2/5)
+Barber analyzed page: {'politika': 0, 'sport': 0, 'ekonomika': 0}, found 453 links
+Barber processed customer (processed: 3/10)
+New customer added to queue (queue: 3/5)
+Barber processes: https://www.idnes.cz/zpravy/zahranicni/rusko-syrie-libye-zakladna-chalifa-haftar-tartus-hmimim-presun.a241220_133306_zahranicni_dtt
+New customer added to queue (queue: 3/5)
+Barber analyzed page: {'politika': 6, 'sport': 25, 'ekonomika': 4}, found 234 links
+Barber processed customer (processed: 4/10)
+Barber processes: https://www.idnes.cz/premium/sluzby
+New customer added to queue (queue: 3/5)
+Barber analyzed page: {'politika': 0, 'sport': 25, 'ekonomika': 3}, found 175 links
+New customer added to queue (queue: 4/5)
+Barber processed customer (processed: 5/10)
+Invalid input encoding. Please try again.
+New customer added to queue (queue: 5/5)
+Barber processes: http://www.mafra.cz/o-spolecnosti.aspx

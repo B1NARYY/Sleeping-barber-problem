@@ -1,0 +1,25 @@
+Enter a command (help for usage):
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 104, 'ekonomika': 20}, found 438 links
+Barber processed customer (processed: 1/10)
+New customer added to queue (queue: 0/5)
+Barber is sleeping... (processed: 1/10)
+New customer added to queue (queue: 1/5)
+Barber wakes up...
+Barber processes: https://www.idnes.cz/ucet/ziskat-premium?url=https%3A%2F%2Fwww.idnes.cz%2Fpremium%3Fzdroj%3Dtopmenu
+New customer added to queue (queue: 1/5)
+Barber analyzed page: {'politika': 0, 'sport': 1, 'ekonomika': 1}, found 4 links
+Barber processed customer (processed: 2/10)
+New customer added to queue (queue: 2/5)
+Barber processes: https://www.idnes.cz/ucet/prihlasit?url=https%3A%2F%2Fwww.idnes.cz%2F
+New customer added to queue (queue: 2/5)
+New customer added to queue (queue: 3/5)
+Barber analyzed page: {'politika': 0, 'sport': 1, 'ekonomika': 1}, found 2 links
+Barber processed customer (processed: 3/10)
+New customer added to queue (queue: 4/5)
+Barber processes: https://www.idnes.cz/ucet
+New customer added to queue (queue: 4/5)
+New customer added to queue (queue: 5/5)
+Invalid input encoding. Please try again.
+Barber analyzed page: {'politika': 0, 'sport': 1, 'ekonomika': 1}, found 2 links
+Barber processed customer (processed: 4/10)

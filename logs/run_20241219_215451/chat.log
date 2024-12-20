@@ -1,0 +1,39 @@
+##################################################
+{
+  "initial_urls": [
+    "https://www.idnes.cz/"
+  ],
+  "delay_seconds": [
+    0.5,
+    1
+  ],
+  "keywords": [
+    "politika",
+    "sport",
+    "ekonomika"
+  ],
+  "max_customers": 10,
+  "max_queue_size": 5,
+  "enable_wakeup_from_stored_urls": true,
+  "new_customer_probability": 0.9,
+  "producer_interval": 1
+}
+##################################################
+Available commands:
+ help   - show this help message
+ start  - start the barber
+ stop   - stop the barber
+ status - show current status
+ edit   - edit config.json
+ exit   - exit the program
+Enter the config key to edit:
+Enter the new value for 'producer_interval':
+Config key 'producer_interval' updated to '-99'. Changes apply on next start.
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 104, 'ekonomika': 26}
+Barber processed customer (processed: 1/10)
+Barber is sleeping... (processed: 1/10)
+Barber is sleeping... (processed: 1/10)
+Barber is sleeping... (processed: 1/10)
+Barber is sleeping... (processed: 1/10)
+Barber is sleeping... (processed: 1/10)

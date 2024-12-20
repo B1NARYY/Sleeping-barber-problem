@@ -1,0 +1,21 @@
+##################################################
+{
+  "initial_urls": ["https://www.idnes.cz/"],
+  "crawler_count": 1,
+  "producer_interval": 5,
+  "run_time": 30,
+  "delay_seconds": [3, 7],
+  "keywords": ["politika", "sport", "ekonomika"],
+  "max_customers": 20,
+  "max_queue_size": 50
+}
+
+##################################################
+Enter a command (help for usage):
+Available commands:
+ help   - show this help message
+ start  - start the crawler
+ stop   - stop the crawler
+ status - show current status
+ exit   - exit the UI and the program
+Crawler is stopped.

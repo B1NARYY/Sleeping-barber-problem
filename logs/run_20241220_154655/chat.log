@@ -1,0 +1,14 @@
+Enter a command (help for usage):
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 114, 'ekonomika': 23}, found 442 links
+Barber processed customer (processed: 1/10)
+New customer added to queue (queue: 1/5)
+Barber processes: https://www.idnes.cz/sport/basket
+New customer added to queue (queue: 1/5)
+Barber analyzed page: {'politika': 0, 'sport': 282, 'ekonomika': 4}, found 287 links
+Barber processed customer (processed: 2/10)
+New customer added to queue (queue: 2/5)
+Barber processes: https://www.expres.cz/celebrity/helena-zetova-rozhovor-smrt-umrti.a200102_201737_dx-celebrity_ren
+New customer added to queue (queue: 2/5)
+Invalid input encoding. Please try again.
+New customer added to queue (queue: 3/5)

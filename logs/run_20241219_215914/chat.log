@@ -1,0 +1,46 @@
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 104, 'ekonomika': 26}
+Barber processed customer (processed: 1/10)
+Barber is sleeping... (processed: 1/10)
+New customer add in queue (queue: 1/5)
+Barber wakes up...
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 104, 'ekonomika': 26}
+Barber processed customer (processed: 2/10)
+New customer add in queue (queue: 1/5)
+Barber processes: https://www.idnes.cz/ucet/ziskat-premium?url=https%3A%2F%2Fwww.idnes.cz%2Fpremium%3Fzdroj%3Dtopmenu
+Barber analyzed page: {'politika': 0, 'sport': 1, 'ekonomika': 1}
+Barber processed customer (processed: 3/10)
+New customer add in queue (queue: 1/5)
+Barber processes: https://www.idnes.cz/ucet/prihlasit?url=https%3A%2F%2Fwww.idnes.cz%2F
+Barber analyzed page: {'politika': 0, 'sport': 1, 'ekonomika': 1}
+Barber processed customer (processed: 4/10)
+New customer add in queue (queue: 1/5)
+Barber processes: https://www.idnes.cz/ucet
+Barber analyzed page: {'politika': 0, 'sport': 1, 'ekonomika': 1}
+Barber processed customer (processed: 5/10)
+New customer add in queue (queue: 1/5)
+Barber processes: https://www.idnes.cz/zpravy
+Barber analyzed page: {'politika': 8, 'sport': 28, 'ekonomika': 45}
+Barber processed customer (processed: 6/10)
+Barber is sleeping... (processed: 6/10)
+New customer add in queue (queue: 1/5)
+Barber wakes up...
+Barber processes: https://www.idnes.cz/zpravy/domaci
+New customer add in queue (queue: 1/5)
+Barber analyzed page: {'politika': 7, 'sport': 27, 'ekonomika': 7}
+Barber processed customer (processed: 7/10)
+Barber processes: https://www.idnes.cz/zpravy/zahranicni
+Barber analyzed page: {'politika': 6, 'sport': 27, 'ekonomika': 5}
+Barber processed customer (processed: 8/10)
+New customer add in queue (queue: 1/5)
+Barber processes: https://www.idnes.cz/zpravy/domaci/komentare-glosy-nazory.K307000
+Barber analyzed page: {'politika': 7, 'sport': 26, 'ekonomika': 16}
+Barber processed customer (processed: 9/10)
+New customer add in queue (queue: 1/5)
+Barber processes: https://www.idnes.cz/zpravy/cerna-kronika
+Barber analyzed page: {'politika': 6, 'sport': 26, 'ekonomika': 4}
+Barber processed customer (processed: 10/10)
+Barber is sleeping... (processed: 10/10)
+New customer add in queue (queue: 1/5)
+Barber is done for the day!

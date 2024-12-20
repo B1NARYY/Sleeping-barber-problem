@@ -1,0 +1,87 @@
+##################################################
+{
+  "initial_urls": [
+    "https://www.idnes.cz/"
+  ],
+  "crawler_count": 1,
+  "producer_interval": 1,
+  "run_time": 5,
+  "delay_seconds": [
+    0.5,
+    1
+  ],
+  "keywords": [
+    "politika",
+    "sport",
+    "ekonomika"
+  ],
+  "max_customers": 10,
+  "max_queue_size": 5,
+  "links_range": [0,1]
+}
+##################################################
+Enter a command (help for usage):
+Barber is sleeping... (processed: 0)
+Barber wakes up...
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 90, 'ekonomika': 20}
+Barber found 1 new customers. (processed: 0, in queue: 1)
+Barber processes: https://www.idnes.cz/hry
+Barber analyzed page: {'politika': 0, 'sport': 25, 'ekonomika': 5}
+Barber found 1 new customers. (processed: 1, in queue: 1)
+Barber processes: https://www.idnes.cz/hry/preview
+Barber analyzed page: {'politika': 0, 'sport': 25, 'ekonomika': 8}
+Barber found 1 new customers. (processed: 2, in queue: 1)
+Barber processes: https://www.mobil.cz/#utm_source=sph.idnes&utm_medium=text&utm_content=navigace-dalsi
+Barber analyzed page: {'politika': 0, 'sport': 0, 'ekonomika': 0}
+Barber found 1 new customers. (processed: 3, in queue: 1)
+Barber processes: https://www.mobil.cz/koupit-sim
+Barber analyzed page: {'politika': 0, 'sport': 7, 'ekonomika': 0}
+Barber found 1 new customers. (processed: 4, in queue: 1)
+Barber processes: https://www.mobil.cz/
+Barber analyzed page: {'politika': 0, 'sport': 0, 'ekonomika': 0}
+Barber found 1 new customers. (processed: 5, in queue: 1)
+Barber processes: https://www.mobil.cz/koupit-sim
+Barber analyzed page: {'politika': 0, 'sport': 7, 'ekonomika': 0}
+Barber found 1 new customers. (processed: 6, in queue: 1)
+Barber processes: https://www.mafra.cz/cookies
+Barber analyzed page: {'politika': 0, 'sport': 0, 'ekonomika': 0}
+Barber found 1 new customers. (processed: 7, in queue: 1)
+Barber processes: https://eur-lex.europa.eu/legal-content/CS/ALL/?uri=celex%3A32016R0679
+Barber analyzed page: {'politika': 0, 'sport': 1, 'ekonomika': 0}
+Barber found 1 new customers. (processed: 8, in queue: 1)
+Barber processes: https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:62023CN0169
+Barber analyzed page: {'politika': 0, 'sport': 0, 'ekonomika': 0}
+Barber found 1 new customers. (processed: 9, in queue: 1)
+Barber is done for the day!
+Processed customers:
+URL: https://www.idnes.cz/, Keywords: {'politika': 0, 'sport': 90, 'ekonomika': 20}, New Links: 437
+URL: https://www.idnes.cz/hry, Keywords: {'politika': 0, 'sport': 25, 'ekonomika': 5}, New Links: 315
+URL: https://www.idnes.cz/hry/preview, Keywords: {'politika': 0, 'sport': 25, 'ekonomika': 8}, New Links: 264
+URL: https://www.mobil.cz/#utm_source=sph.idnes&utm_medium=text&utm_content=navigace-dalsi, Keywords: {'politika': 0, 'sport': 0, 'ekonomika': 0}, New Links: 36
+URL: https://www.mobil.cz/koupit-sim, Keywords: {'politika': 0, 'sport': 7, 'ekonomika': 0}, New Links: 24
+URL: https://www.mobil.cz/, Keywords: {'politika': 0, 'sport': 0, 'ekonomika': 0}, New Links: 36
+URL: https://www.mobil.cz/koupit-sim, Keywords: {'politika': 0, 'sport': 7, 'ekonomika': 0}, New Links: 24
+URL: https://www.mafra.cz/cookies, Keywords: {'politika': 0, 'sport': 0, 'ekonomika': 0}, New Links: 453
+URL: https://eur-lex.europa.eu/legal-content/CS/ALL/?uri=celex%3A32016R0679, Keywords: {'politika': 0, 'sport': 1, 'ekonomika': 0}, New Links: 981
+URL: https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:62023CN0169, Keywords: {'politika': 0, 'sport': 0, 'ekonomika': 0}, New Links: 247
+Enter the config key to edit:
+Enter the new value for 'links_range':
+Config key 'links_range' updated to '[0, 0]'. Changes apply on next start.
+Barber is done for the day!
+Barber is still working.
+Processed customers:
+URL: https://www.idnes.cz/, Keywords: {'politika': 0, 'sport': 90, 'ekonomika': 20}, New Links: 437
+URL: https://www.idnes.cz/hry, Keywords: {'politika': 0, 'sport': 25, 'ekonomika': 5}, New Links: 315
+URL: https://www.idnes.cz/hry/preview, Keywords: {'politika': 0, 'sport': 25, 'ekonomika': 8}, New Links: 264
+URL: https://www.mobil.cz/#utm_source=sph.idnes&utm_medium=text&utm_content=navigace-dalsi, Keywords: {'politika': 0, 'sport': 0, 'ekonomika': 0}, New Links: 36
+URL: https://www.mobil.cz/koupit-sim, Keywords: {'politika': 0, 'sport': 7, 'ekonomika': 0}, New Links: 24
+URL: https://www.mobil.cz/, Keywords: {'politika': 0, 'sport': 0, 'ekonomika': 0}, New Links: 36
+URL: https://www.mobil.cz/koupit-sim, Keywords: {'politika': 0, 'sport': 7, 'ekonomika': 0}, New Links: 24
+URL: https://www.mafra.cz/cookies, Keywords: {'politika': 0, 'sport': 0, 'ekonomika': 0}, New Links: 453
+URL: https://eur-lex.europa.eu/legal-content/CS/ALL/?uri=celex%3A32016R0679, Keywords: {'politika': 0, 'sport': 1, 'ekonomika': 0}, New Links: 981
+URL: https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:62023CN0169, Keywords: {'politika': 0, 'sport': 0, 'ekonomika': 0}, New Links: 247
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 90, 'ekonomika': 20}
+Barber found 1 new customers. (processed: 10, in queue: 3)
+Barber is done for the day!

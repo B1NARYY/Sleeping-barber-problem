@@ -1,0 +1,10 @@
+Enter a command (help for usage):
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 104, 'ekonomika': 20}, found 438 links
+Barber processed customer (processed: 1/10)
+New customer added to queue (queue: 1/5)
+Barber processes: https://www.idnes.cz/
+New customer added to queue (queue: 1/5)
+Invalid input encoding. Please try again.
+Barber analyzed page: {'politika': 0, 'sport': 104, 'ekonomika': 20}, found 438 links
+Barber processed customer (processed: 2/10)

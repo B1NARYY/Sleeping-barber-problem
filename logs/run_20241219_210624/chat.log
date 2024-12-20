@@ -1,0 +1,7 @@
+Available commands:
+ help   - show this help message
+ start  - start the barber
+ stop   - stop the barber
+ status - show current status
+ edit   - edit config.json
+ exit   - exit the program

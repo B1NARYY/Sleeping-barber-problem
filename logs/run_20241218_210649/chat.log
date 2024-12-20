@@ -1,0 +1,24 @@
+##################################################
+{
+  "initial_urls": ["https://www.idnes.cz/"],
+  "crawler_count": 1,
+  "producer_interval": 5,
+  "run_time": 30,
+  "delay_seconds": [3, 7],
+  "keywords": ["politika", "sport", "ekonomika"],
+  "max_customers": 20,
+  "max_queue_size": 50,
+  "links_range": [0, 3]
+}
+
+##################################################
+Enter a command (help for usage):
+Barber is sleeping...
+Program is running...
+Barber wakes up...
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 91, 'ekonomika': 15}
+Barber found 2 new customers.
+Barber processes: https://www.mafra.cz/o-spolecnosti.aspx?y=mafra_all/pouceni.htm&cat=pouceni#cookies
+Barber analyzed page: {'politika': 0, 'sport': 0, 'ekonomika': 0}
+Barber found 3 new customers.

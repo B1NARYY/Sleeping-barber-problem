@@ -1,0 +1,65 @@
+###################################Available commands:
+ help   - show this help message
+ start  - start the barber
+ stop   - stop the barber
+ status - show current status
+ edit   - edit config.json
+ exit   - exit the program
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 100, 'ekonomika': 29}
+Barber found 2 new customers. (processed: 1/10, queue: 2/5)
+Barber processes: https://www.idnes.cz/premium/clanky
+Barber analyzed page: {'politika': 0, 'sport': 39, 'ekonomika': 9}
+Barber found 2 new customers. (processed: 2/10, queue: 3/5)
+Barber processes: https://www.idnes.cz/onadnes/moda/shrek-vzhled-bizarni-make-up-liceni-sexy-krasa.A241217_182413_modni-trendy_bib
+Barber analyzed page: {'politika': 0, 'sport': 26, 'ekonomika': 6}
+Barber found 0 new customers. (processed: 3/10, queue: 2/5)
+Barber processes: https://tools2.idnes.cz/captcha/Audio.aspx?id=29\42394
+Producer added a customer from stored_links to queue.
+Barber analyzed page: {'politika': 0, 'sport': 0, 'ekonomika': 0}
+Barber found 0 new customers. (processed: 4/10, queue: 2/5)
+Barber processes: https://www.idnes.cz/technet
+Barber analyzed page: {'politika': 0, 'sport': 27, 'ekonomika': 12}
+Barber found 0 new customers. (processed: 5/10, queue: 1/5)
+Barber processes: https://www.idnes.cz/zpravy/zahranicni/rusko-vladimir-putin-vyrocni-tiskova-konference-novinari.A241219_091010_zahranicni_kha
+Producer added a customer from stored_links to queue.
+Barber analyzed page: {'politika': 6, 'sport': 25, 'ekonomika': 13}
+Barber found 2 new customers. (processed: 6/10, queue: 3/5)
+Barber processes: https://www.idnes.cz/ostrava
+Barber analyzed page: {'politika': 7, 'sport': 34, 'ekonomika': 11}
+Barber found 2 new customers. (processed: 7/10, queue: 4/5)
+Barber processes: https://www.idnes.cz/sport/lyzovani-snowboarding
+Producer added a customer from stored_links to queue.
+Barber analyzed page: {'politika': 0, 'sport': 179, 'ekonomika': 11}
+Barber found 0 new customers. (processed: 8/10, queue: 4/5)
+Barber processes: https://reality.idnes.cz/s/prodej/pozemky/?ad=selfbox?ad=selfbox#utm_source=island.idnes&utm_medium=richtext&utm_content=self-box
+Producer added a customer from stored_links to queue.
+Barber analyzed page: {'politika': 0, 'sport': 0, 'ekonomika': 0}
+Barber found 1 new customers. (processed: 9/10, queue: 5/5)
+Barber processes: https://tv.idnes.cz/zive
+Barber analyzed page: {'politika': 0, 'sport': 2, 'ekonomika': 0}
+Barber found 1 new customers. (processed: 10/10, queue: 5/5)
+Producer added a customer from stored_links to queue.
+Barber is done for the day!
+Producer added a customer from stored_links to queue.
+Producer added a customer from stored_links to queue.
+Producer added a customer from stored_links to queue.
+Producer added a customer from stored_links to queue.
+Producer added a customer from stored_links to queue.
+Producer added a customer from stored_links to queue.
+Producer added a customer from stored_links to queue.
+Producer added a customer from stored_links to queue.
+Producer added a customer from stored_links to queue.
+Processed customers:
+URL: https://www.idnes.cz/, Keywords: {'politika': 0, 'sport': 100, 'ekonomika': 29}, New Links: 439
+URL: https://www.idnes.cz/premium/clanky, Keywords: {'politika': 0, 'sport': 39, 'ekonomika': 9}, New Links: 210
+URL: https://www.idnes.cz/onadnes/moda/shrek-vzhled-bizarni-make-up-liceni-sexy-krasa.A241217_182413_modni-trendy_bib, Keywords: {'politika': 0, 'sport': 26, 'ekonomika': 6}, New Links: 232
+URL: https://tools2.idnes.cz/captcha/Audio.aspx?id=29\42394, Keywords: {'politika': 0, 'sport': 0, 'ekonomika': 0}, New Links: 0
+URL: https://www.idnes.cz/technet, Keywords: {'politika': 0, 'sport': 27, 'ekonomika': 12}, New Links: 290
+URL: https://www.idnes.cz/zpravy/zahranicni/rusko-vladimir-putin-vyrocni-tiskova-konference-novinari.A241219_091010_zahranicni_kha, Keywords: {'politika': 6, 'sport': 25, 'ekonomika': 13}, New Links: 227
+URL: https://www.idnes.cz/ostrava, Keywords: {'politika': 7, 'sport': 34, 'ekonomika': 11}, New Links: 263
+URL: https://www.idnes.cz/sport/lyzovani-snowboarding, Keywords: {'politika': 0, 'sport': 179, 'ekonomika': 11}, New Links: 283
+URL: https://reality.idnes.cz/s/prodej/pozemky/?ad=selfbox?ad=selfbox#utm_source=island.idnes&utm_medium=richtext&utm_content=self-box, Keywords: {'politika': 0, 'sport': 0, 'ekonomika': 0}, New Links: 168
+URL: https://tv.idnes.cz/zive, Keywords: {'politika': 0, 'sport': 2, 'ekonomika': 0}, New Links: 32
+This is end of the simulation.
+Enter a command (help for usage):

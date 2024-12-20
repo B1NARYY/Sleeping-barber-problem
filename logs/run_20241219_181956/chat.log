@@ -1,0 +1,35 @@
+##################################################
+{
+  "initial_urls": ["https://www.idnes.cz/"],
+  "crawler_count": 1,
+  "producer_interval": 1,
+  "run_time": 5,
+  "delay_seconds": [0.5, 1],
+  "keywords": ["politika", "sport", "ekonomika"],
+  "max_customers": 10,
+  "max_queue_size": 5,
+  "links_range": [0, 3]
+}
+
+##################################################
+Enter a command (help for usage):
+Available commands:
+ help   - show this help message
+ start  - start the barber
+ stop   - stop the barber
+ status - show current status
+ exit   - exit the program
+ edit   - edit config.json
+Enter the config key to edit:
+Enter the new value for 'links_range':
+Config key 'links_range' updated to '0'. Changes apply on next start.
+Enter the config key to edit:
+Enter the new value for 'links_range':
+Config key 'links_range' updated to '[0,1]'. Changes apply on next start.
+Barber is sleeping...
+Barber wakes up...
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 92, 'ekonomika': 20}
+Barber found 0 new customers. (0/10 processed)
+Barber is sleeping...
+Barber is still working...

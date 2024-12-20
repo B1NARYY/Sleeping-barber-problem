@@ -1,0 +1,45 @@
+Enter a command (help for usage):
+##################################################
+{
+  "initial_urls": [
+    "https://www.idnes.cz/"
+  ],
+  "barber_delay_seconds": [
+    0.5,
+    2
+  ],
+  "producer_delay_seconds": [
+    0.2,
+    0.5
+  ],
+  "keywords": [
+    "politika",
+    "sport",
+    "ekonomika"
+  ],
+  "max_customers": 10,
+  "max_queue_size": 5,
+  "enable_wakeup_from_stored_urls": true,
+  "new_customer_probability": 0.9,
+  "producer_interval": 1
+}
+##################################################
+Available commands:
+ help   - show this help message
+ start  - start the barber
+ stop   - stop the barber
+ status - show current status
+ edit   - edit config.json
+ exit   - exit the program
+ explain - explain config file structure
+Configuration file structure:
+initial_urls: list of URLs to start crawling
+crawler_count: number of crawler threads
+producer_interval: time between URL checks
+run_time: time in minutes to run the program
+delay_seconds: range of random delay between requests
+keywords: list of keywords to search for
+max_customers: maximum number of customers to process
+max_queue_size: maximum number of URLs in queue
+links_range: range of links to add to queue
+Invalid input encoding. Please try again.

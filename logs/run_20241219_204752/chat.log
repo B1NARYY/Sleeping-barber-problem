@@ -1,0 +1,77 @@
+Enter a command (help for usage):
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 100, 'ekonomika': 29}
+Barber found 0 new customers. (processed: 1/10, queue: 0/5)
+Producer added a customer from stored_links to queue.
+Barber is sleeping... (processed: 1/10 , queue: 0/5)
+Barber wakes up...
+Barber processes: https://www.idnes.cz/zpravy/zahranicni/rusko-letoun-baltske-more-nadzvukove-strely-svedsko-nizozemi-rusko.A241218_171829_zahranicni_jhr
+Barber analyzed page: {'politika': 7, 'sport': 25, 'ekonomika': 11}
+Barber found 2 new customers. (processed: 2/10, queue: 2/5)
+Producer added a customer from stored_links to queue.
+Barber processes: https://instagram.com/idnescz/
+Barber analyzed page: {'politika': 0, 'sport': 16, 'ekonomika': 0}
+Barber found 0 new customers. (processed: 3/10, queue: 2/5)
+Barber processes: https://www.expres.cz/speed
+Barber analyzed page: {'politika': 0, 'sport': 10, 'ekonomika': 0}
+Barber found 0 new customers. (processed: 4/10, queue: 1/5)
+Producer added a customer from stored_links to queue.
+Barber processes: https://pocasi.idnes.cz/?d=dnes
+Barber analyzed page: {'politika': 0, 'sport': 24, 'ekonomika': 6}
+Barber found 0 new customers. (processed: 5/10, queue: 1/5)
+Barber processes: https://www.idnes.cz/zpravy/revue/spolecnost/lily-rose-depp-bratr-jack-vztah-s-rodici-detstvi-film-nosferatu.A241205_190643_lidicky_potu
+Barber analyzed page: {'politika': 0, 'sport': 29, 'ekonomika': 6}
+Barber found 0 new customers. (processed: 6/10, queue: 0/5)
+Barber is sleeping... (processed: 6/10 , queue: 0/5)
+Barber is sleeping... (processed: 6/10 , queue: 0/5)
+Barber is sleeping... (processed: 6/10 , queue: 0/5)
+Barber is sleeping... (processed: 6/10 , queue: 0/5)
+Barber is sleeping... (processed: 6/10 , queue: 0/5)
+Barber is sleeping... (processed: 6/10 , queue: 0/5)
+Barber is sleeping... (processed: 6/10 , queue: 0/5)
+Barber is sleeping... (processed: 6/10 , queue: 0/5)
+Producer added a customer from stored_links to queue.
+Barber wakes up...
+Barber processes: https://www.idnes.cz/zpravy/mediahub/vanoce-daruj-predplatne-idnes-premium.A241204_101551_mediahub_bhar
+Barber analyzed page: {'politika': 7, 'sport': 25, 'ekonomika': 14}
+Producer added a customer from stored_links to queue.
+Barber found 0 new customers. (processed: 7/10, queue: 1/5)
+Barber processes: https://www.idnes.cz/zpravy/archiv?idostrova=idnes
+Barber analyzed page: {'politika': 9, 'sport': 40, 'ekonomika': 40}
+Barber found 0 new customers. (processed: 8/10, queue: 0/5)
+Barber is sleeping... (processed: 8/10 , queue: 0/5)
+Barber is sleeping... (processed: 8/10 , queue: 0/5)
+Barber is sleeping... (processed: 8/10 , queue: 0/5)
+Barber is sleeping... (processed: 8/10 , queue: 0/5)
+Barber is sleeping... (processed: 8/10 , queue: 0/5)
+Barber is sleeping... (processed: 8/10 , queue: 0/5)
+Barber is sleeping... (processed: 8/10 , queue: 0/5)
+Barber is sleeping... (processed: 8/10 , queue: 0/5)
+Barber is sleeping... (processed: 8/10 , queue: 0/5)
+Producer added a customer from stored_links to queue.
+Barber wakes up...
+Barber processes: https://tv.idnes.cz
+Barber analyzed page: {'politika': 0, 'sport': 2, 'ekonomika': 0}
+Barber found 1 new customers. (processed: 9/10, queue: 1/5)
+Barber processes: http://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 100, 'ekonomika': 29}
+Barber found 0 new customers. (processed: 10/10, queue: 0/5)
+Barber is sleeping... (processed: 10/10 , queue: 0/5)
+Barber is sleeping... (processed: 10/10 , queue: 0/5)
+Barber is sleeping... (processed: 10/10 , queue: 0/5)
+Barber is sleeping... (processed: 10/10 , queue: 0/5)
+Producer added a customer from stored_links to queue.
+Barber is done for the day!
+Processed customers:
+URL: https://www.idnes.cz/, Keywords: {'politika': 0, 'sport': 100, 'ekonomika': 29}, New Links: 439
+URL: https://www.idnes.cz/zpravy/zahranicni/rusko-letoun-baltske-more-nadzvukove-strely-svedsko-nizozemi-rusko.A241218_171829_zahranicni_jhr, Keywords: {'politika': 7, 'sport': 25, 'ekonomika': 11}, New Links: 219
+URL: https://instagram.com/idnescz/, Keywords: {'politika': 0, 'sport': 16, 'ekonomika': 0}, New Links: 0
+URL: https://www.expres.cz/speed, Keywords: {'politika': 0, 'sport': 10, 'ekonomika': 0}, New Links: 84
+URL: https://pocasi.idnes.cz/?d=dnes, Keywords: {'politika': 0, 'sport': 24, 'ekonomika': 6}, New Links: 245
+URL: https://www.idnes.cz/zpravy/revue/spolecnost/lily-rose-depp-bratr-jack-vztah-s-rodici-detstvi-film-nosferatu.A241205_190643_lidicky_potu, Keywords: {'politika': 0, 'sport': 29, 'ekonomika': 6}, New Links: 227
+URL: https://www.idnes.cz/zpravy/mediahub/vanoce-daruj-predplatne-idnes-premium.A241204_101551_mediahub_bhar, Keywords: {'politika': 7, 'sport': 25, 'ekonomika': 14}, New Links: 226
+URL: https://www.idnes.cz/zpravy/archiv?idostrova=idnes, Keywords: {'politika': 9, 'sport': 40, 'ekonomika': 40}, New Links: 328
+URL: https://tv.idnes.cz, Keywords: {'politika': 0, 'sport': 2, 'ekonomika': 0}, New Links: 55
+URL: http://www.idnes.cz/, Keywords: {'politika': 0, 'sport': 100, 'ekonomika': 29}, New Links: 439
+This is end of the simulation.
+Enter a command (help for usage):

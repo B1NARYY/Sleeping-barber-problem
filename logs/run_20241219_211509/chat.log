@@ -1,0 +1,60 @@
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 99, 'ekonomika': 31}
+Barber found 439 links and stored them. (processed: 1/10, queue: 0/5)
+Barber is sleeping... (processed: 1/10 , queue: 0/5)
+Barber is sleeping... (processed: 1/10 , queue: 0/5)
+Barber is sleeping... (processed: 1/10 , queue: 0/5)
+Barber is sleeping... (processed: 1/10 , queue: 0/5)
+Barber is sleeping... (processed: 1/10 , queue: 0/5)
+Barber is sleeping... (processed: 1/10 , queue: 0/5)
+Barber is sleeping... (processed: 1/10 , queue: 0/5)
+Producer added a customer from stored_links to queue.
+Barber wakes up...
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 99, 'ekonomika': 31}
+Barber found 439 links and stored them. (processed: 2/10, queue: 0/5)
+Producer added a customer from stored_links to queue.
+Barber processes: https://www.idnes.cz/ucet/ziskat-premium?url=https%3A%2F%2Fwww.idnes.cz%2Fpremium%3Fzdroj%3Dtopmenu
+Barber analyzed page: {'politika': 0, 'sport': 1, 'ekonomika': 1}
+Barber found 4 links and stored them. (processed: 3/10, queue: 0/5)
+Barber is sleeping... (processed: 3/10 , queue: 0/5)
+Barber is sleeping... (processed: 3/10 , queue: 0/5)
+Barber is sleeping... (processed: 3/10 , queue: 0/5)
+Producer added a customer from stored_links to queue.
+Barber wakes up...
+Barber processes: https://www.idnes.cz/ucet/prihlasit?url=https%3A%2F%2Fwww.idnes.cz%2F
+Barber analyzed page: {'politika': 0, 'sport': 1, 'ekonomika': 1}
+Barber found 2 links and stored them. (processed: 4/10, queue: 0/5)
+Barber is sleeping... (processed: 4/10 , queue: 0/5)
+Producer added a customer from stored_links to queue.
+Barber wakes up...
+Barber processes: https://www.idnes.cz/ucet
+Producer added a customer from stored_links to queue.
+Barber analyzed page: {'politika': 0, 'sport': 1, 'ekonomika': 1}
+Barber found 2 links and stored them. (processed: 5/10, queue: 1/5)
+Barber processes: https://www.idnes.cz/zpravy
+Producer added a customer from stored_links to queue.
+Barber analyzed page: {'politika': 8, 'sport': 29, 'ekonomika': 38}
+Barber found 350 links and stored them. (processed: 6/10, queue: 1/5)
+Barber processes: https://www.idnes.cz/zpravy/domaci
+Producer added a customer from stored_links to queue.
+Barber analyzed page: {'politika': 9, 'sport': 28, 'ekonomika': 10}
+Barber found 277 links and stored them. (processed: 7/10, queue: 1/5)
+Barber processes: https://www.idnes.cz/zpravy/zahranicni
+Barber analyzed page: {'politika': 7, 'sport': 28, 'ekonomika': 11}
+Barber found 268 links and stored them. (processed: 8/10, queue: 0/5)
+Barber is sleeping... (processed: 8/10 , queue: 0/5)
+Producer added a customer from stored_links to queue.
+Barber wakes up...
+Barber processes: https://www.idnes.cz/zpravy/domaci/komentare-glosy-nazory.K307000
+Barber analyzed page: {'politika': 7, 'sport': 26, 'ekonomika': 22}
+Barber found 385 links and stored them. (processed: 9/10, queue: 0/5)
+Producer added a customer from stored_links to queue.
+Barber processes: https://www.idnes.cz/zpravy/cerna-kronika
+Barber analyzed page: {'politika': 6, 'sport': 28, 'ekonomika': 10}
+Barber found 261 links and stored them. (processed: 10/10, queue: 0/5)
+Barber is sleeping... (processed: 10/10 , queue: 0/5)
+Barber is sleeping... (processed: 10/10 , queue: 0/5)
+Barber is sleeping... (processed: 10/10 , queue: 0/5)
+Producer added a customer from stored_links to queue.
+Barber is done for the day!

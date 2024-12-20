@@ -1,0 +1,49 @@
+##################################################
+{
+  "initial_urls": [
+    "https://www.idnes.cz/"
+  ],
+  "crawler_count": 1,
+  "producer_interval": 1,
+  "run_time": 5,
+  "delay_seconds": [
+    0.5,
+    1
+  ],
+  "keywords": [
+    "politika",
+    "sport",
+    "ekonomika"
+  ],
+  "max_customers": 10,
+  "max_queue_size": 5,
+  "links_range": [0, 1]
+}
+##################################################
+Enter a command (help for usage):
+Barber is sleeping... (processed: 0/10 , queue: 0/5)
+Barber wakes up...
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 99, 'ekonomika': 39}
+Barber found 1 new customers. (processed: 1/10, queue: 1/5)
+Barber processes: https://www.idnes.cz/brno
+Barber analyzed page: {'politika': 7, 'sport': 43, 'ekonomika': 7}
+Barber found 0 new customers. (processed: 3/10, queue: 0/5)
+Barber is sleeping... (processed: 4/10 , queue: 0/5)
+Barber is done for the day!
+Processed customers:
+URL: https://www.idnes.cz/, Keywords: {'politika': 0, 'sport': 99, 'ekonomika': 39}, New Links: 440
+URL: https://www.idnes.cz/, Keywords: {'politika': 0, 'sport': 99, 'ekonomika': 39}, New Links: 440
+URL: https://www.idnes.cz/brno, Keywords: {'politika': 7, 'sport': 43, 'ekonomika': 7}, New Links: 263
+URL: https://www.idnes.cz/brno, Keywords: {'politika': 7, 'sport': 43, 'ekonomika': 7}, New Links: 263
+Enter a command (help for usage):
+Barber is sleeping... (processed: 0/10 , queue: 0/5)
+Barber wakes up...
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 99, 'ekonomika': 39}
+Barber found 1 new customers. (processed: 1/10, queue: 1/5)
+Barber processes: https://www.expres.cz/
+Simulation is running.
+Barber analyzed page: {'politika': 0, 'sport': 14, 'ekonomika': 1}
+Barber found 0 new customers. (processed: 3/10, queue: 0/5)
+Barber is sleeping... (processed: 4/10 , queue: 0/5)

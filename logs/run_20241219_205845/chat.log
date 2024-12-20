@@ -1,0 +1,130 @@
+Enter a command (help for usage):
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 100, 'ekonomika': 31}
+Barber found 0 new customers. (processed: 1/10, queue: 0/5)
+Barber is sleeping... (processed: 1/10 , queue: 0/5)
+Barber is sleeping... (processed: 1/10 , queue: 0/5)
+Barber is sleeping... (processed: 1/10 , queue: 0/5)
+Barber is sleeping... (processed: 1/10 , queue: 0/5)
+Barber is sleeping... (processed: 1/10 , queue: 0/5)
+Barber is sleeping... (processed: 1/10 , queue: 0/5)
+Barber is sleeping... (processed: 1/10 , queue: 0/5)
+Barber is sleeping... (processed: 1/10 , queue: 0/5)
+Barber is sleeping... (processed: 1/10 , queue: 0/5)
+Barber is sleeping... (processed: 1/10 , queue: 0/5)
+Barber is sleeping... (processed: 1/10 , queue: 0/5)
+Barber is sleeping... (processed: 1/10 , queue: 0/5)
+Barber is sleeping... (processed: 1/10 , queue: 0/5)
+Barber is sleeping... (processed: 1/10 , queue: 0/5)
+Producer added a customer from stored_links to queue.
+Barber wakes up...
+Barber processes: https://www.idnes.cz/sport
+Barber analyzed page: {'politika': 0, 'sport': 358, 'ekonomika': 7}
+Barber found 0 new customers. (processed: 2/10, queue: 0/5)
+Barber is sleeping... (processed: 2/10 , queue: 0/5)
+Barber is sleeping... (processed: 2/10 , queue: 0/5)
+Barber is sleeping... (processed: 2/10 , queue: 0/5)
+Barber is sleeping... (processed: 2/10 , queue: 0/5)
+Barber is sleeping... (processed: 2/10 , queue: 0/5)
+Producer added a customer from stored_links to queue.
+Barber wakes up...
+Barber processes: https://www.idnes.cz/praha
+Barber analyzed page: {'politika': 7, 'sport': 36, 'ekonomika': 17}
+Barber found 0 new customers. (processed: 3/10, queue: 0/5)
+Barber is sleeping... (processed: 3/10 , queue: 0/5)
+Barber is sleeping... (processed: 3/10 , queue: 0/5)
+Barber is sleeping... (processed: 3/10 , queue: 0/5)
+Barber is sleeping... (processed: 3/10 , queue: 0/5)
+Producer added a customer from stored_links to queue.
+Barber wakes up...
+Barber processes: https://www.idnes.cz/praha
+Barber analyzed page: {'politika': 7, 'sport': 35, 'ekonomika': 18}
+Barber found 0 new customers. (processed: 4/10, queue: 0/5)
+Barber is sleeping... (processed: 4/10 , queue: 0/5)
+Barber is sleeping... (processed: 4/10 , queue: 0/5)
+Barber is sleeping... (processed: 4/10 , queue: 0/5)
+Barber is sleeping... (processed: 4/10 , queue: 0/5)
+Barber is sleeping... (processed: 4/10 , queue: 0/5)
+Barber is sleeping... (processed: 4/10 , queue: 0/5)
+Barber is sleeping... (processed: 4/10 , queue: 0/5)
+Producer added a customer from stored_links to queue.
+Barber wakes up...
+Barber processes: https://www.expres.cz/celebrity/ornella-koktova-monika-binias-stiky-vanoce.A241219_170806_dx-celebrity_mksa
+Barber analyzed page: {'politika': 1, 'sport': 10, 'ekonomika': 3}
+Barber found 0 new customers. (processed: 5/10, queue: 0/5)
+Barber is sleeping... (processed: 5/10 , queue: 0/5)
+Barber is sleeping... (processed: 5/10 , queue: 0/5)
+Barber is sleeping... (processed: 5/10 , queue: 0/5)
+Barber is sleeping... (processed: 5/10 , queue: 0/5)
+Barber is sleeping... (processed: 5/10 , queue: 0/5)
+Barber is sleeping... (processed: 5/10 , queue: 0/5)
+Barber is sleeping... (processed: 5/10 , queue: 0/5)
+Barber is sleeping... (processed: 5/10 , queue: 0/5)
+Barber is sleeping... (processed: 5/10 , queue: 0/5)
+Producer added a customer from stored_links to queue.
+Barber wakes up...
+Barber processes: https://www.mfdnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 3, 'ekonomika': 0}
+Barber found 0 new customers. (processed: 6/10, queue: 0/5)
+Barber is sleeping... (processed: 6/10 , queue: 0/5)
+Barber is sleeping... (processed: 6/10 , queue: 0/5)
+Barber is sleeping... (processed: 6/10 , queue: 0/5)
+Barber is sleeping... (processed: 6/10 , queue: 0/5)
+Barber is sleeping... (processed: 6/10 , queue: 0/5)
+Barber is sleeping... (processed: 6/10 , queue: 0/5)
+Barber is sleeping... (processed: 6/10 , queue: 0/5)
+Producer added a customer from stored_links to queue.
+Barber wakes up...
+Barber processes: https://tv.idnes.cz/spolecnost/ty-smejd-mrnavej-fantom-hes-si-podat-souperi-ze-stardance.V241217_203127_idnestv_prr
+Barber analyzed page: {'politika': 0, 'sport': 2, 'ekonomika': 0}
+Barber found 0 new customers. (processed: 7/10, queue: 0/5)
+Producer added a customer from stored_links to queue.
+Barber processes: https://www.idnes.cz/sport/lyzovani-snowboarding
+Barber analyzed page: {'politika': 0, 'sport': 179, 'ekonomika': 7}
+Barber found 0 new customers. (processed: 8/10, queue: 0/5)
+Producer added a customer from stored_links to queue.
+Barber processes: https://tvprogram.idnes.cz/tvprogram.aspx?cat=sport
+Barber analyzed page: {'politika': 0, 'sport': 192, 'ekonomika': 3}
+Barber found 0 new customers. (processed: 9/10, queue: 0/5)
+Barber is sleeping... (processed: 9/10 , queue: 0/5)
+Barber is sleeping... (processed: 9/10 , queue: 0/5)
+Barber is sleeping... (processed: 9/10 , queue: 0/5)
+Barber is sleeping... (processed: 9/10 , queue: 0/5)
+Barber is sleeping... (processed: 9/10 , queue: 0/5)
+Barber is sleeping... (processed: 9/10 , queue: 0/5)
+Barber is sleeping... (processed: 9/10 , queue: 0/5)
+Barber is sleeping... (processed: 9/10 , queue: 0/5)
+Barber is sleeping... (processed: 9/10 , queue: 0/5)
+Barber is sleeping... (processed: 9/10 , queue: 0/5)
+Barber is sleeping... (processed: 9/10 , queue: 0/5)
+Barber is sleeping... (processed: 9/10 , queue: 0/5)
+Barber is sleeping... (processed: 9/10 , queue: 0/5)
+Barber is sleeping... (processed: 9/10 , queue: 0/5)
+Producer added a customer from stored_links to queue.
+Barber wakes up...
+Barber processes: https://www.idnes.cz/technet
+Barber analyzed page: {'politika': 0, 'sport': 28, 'ekonomika': 8}
+Barber found 0 new customers. (processed: 10/10, queue: 0/5)
+Barber is sleeping... (processed: 10/10 , queue: 0/5)
+Barber is sleeping... (processed: 10/10 , queue: 0/5)
+Barber is sleeping... (processed: 10/10 , queue: 0/5)
+Barber is sleeping... (processed: 10/10 , queue: 0/5)
+Barber is sleeping... (processed: 10/10 , queue: 0/5)
+Barber is sleeping... (processed: 10/10 , queue: 0/5)
+Barber is sleeping... (processed: 10/10 , queue: 0/5)
+Barber is sleeping... (processed: 10/10 , queue: 0/5)
+Barber is sleeping... (processed: 10/10 , queue: 0/5)
+Barber is sleeping... (processed: 10/10 , queue: 0/5)
+Barber is sleeping... (processed: 10/10 , queue: 0/5)
+Barber is sleeping... (processed: 10/10 , queue: 0/5)
+Barber is sleeping... (processed: 10/10 , queue: 0/5)
+Barber is sleeping... (processed: 10/10 , queue: 0/5)
+Barber is sleeping... (processed: 10/10 , queue: 0/5)
+Barber is sleeping... (processed: 10/10 , queue: 0/5)
+Producer added a customer from stored_links to queue.
+Barber is done for the day!
+Producer added a customer from stored_links to queue.
+Producer added a customer from stored_links to queue.
+Producer added a customer from stored_links to queue.
+Producer added a customer from stored_links to queue.
+Producer added a customer from stored_links to queue.

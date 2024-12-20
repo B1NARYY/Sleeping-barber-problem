@@ -1,0 +1,34 @@
+Enter a command (help for usage):
+##################################################
+{
+  "initial_urls": [
+    "https://www.idnes.cz/"
+  ],
+  "barber_delay_seconds": [
+    0.5,
+    2
+  ],
+  "producer_delay_seconds": [
+    0.2,
+    0.5
+  ],
+  "keywords": [
+    "politika",
+    "sport",
+    "ekonomika"
+  ],
+  "max_customers": 10,
+  "max_queue_size": 5,
+  "enable_wakeup_from_stored_urls": true,
+  "new_customer_probability": 0.9,
+  "producer_interval": 1
+}
+##################################################
+Available commands:
+ help   - show this help message
+ start  - start the barber
+ stop   - stop the barber
+ status - show current status
+ edit   - edit config.json
+ exit   - exit the program
+Invalid input encoding. Please try again.

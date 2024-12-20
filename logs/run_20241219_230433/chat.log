@@ -1,0 +1,51 @@
+Enter a command (help for usage):
+##################################################
+{
+  "initial_urls": ["https://www.idnes.cz/"],
+  "barber_delay_seconds": [0.5, 2],
+  "producer_delay_seconds": [0.2, 0.5],
+  "keywords": ["politika", "sport", "ekonomika"],
+  "max_customers": 10,
+  "max_queue_size": 5,
+  "enable_wakeup_from_stored_urls": true,
+  "new_customer_probability": 0.9,
+  "producer_interval": 1
+}
+
+##################################################
+Available commands:
+ help   - show this help message
+ start  - start the barber
+ stop   - stop the barber
+ status - show current status
+ edit   - edit config.json
+ exit   - exit the program
+Simulation is not running.
+Starting barber...
+Adding initial URLs to the queue: ['https://www.idnes.cz/']
+Queue size after adding initial URLs: 1
+Crawler thread started.
+Barber processes: https://www.idnes.cz/
+URLProducer thread started.
+Barber analyzed page: {'politika': 0, 'sport': 113, 'ekonomika': 23}, found 438 links
+Barber processed customer (processed: 1/10)
+Reloading configuration...
+Attempting to reload main config...
+Configuration reloaded.
+New customer add in queue (queue: 1/5)
+Reloading configuration...
+Attempting to reload main config...
+Configuration reloaded.
+New customer add in queue (queue: 2/5)
+Barber processes: https://www.idnes.cz/
+Reloading configuration...
+Attempting to reload main config...
+Configuration reloaded.
+New customer add in queue (queue: 2/5)
+Barber analyzed page: {'politika': 0, 'sport': 113, 'ekonomika': 23}, found 438 links
+Barber processed customer (processed: 2/10)
+Reloading configuration...
+Attempting to reload main config...
+Configuration reloaded.
+Barber processes: https://www.idnes.cz/ucet/ziskat-premium?url=https%3A%2F%2Fwww.idnes.cz%2Fpremium%3Fzdroj%3Dtopmenu
+Invalid input encoding. Please try again.

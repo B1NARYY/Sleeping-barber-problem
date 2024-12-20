@@ -1,0 +1,84 @@
+##################################################
+{
+  "initial_urls": [
+    "https://www.idnes.cz/"
+  ],
+  "crawler_count": 1,
+  "producer_interval": 1,
+  "run_time": 5,
+  "delay_seconds": [
+    0.5,
+    1
+  ],
+  "keywords": [
+    "politika",
+    "sport",
+    "ekonomika"
+  ],
+  "max_customers": 10,
+  "max_queue_size": 5,
+  "links_range": [0, 1]
+}
+##################################################
+Enter a command (help for usage):
+Barber is sleeping... (processed: 0/10 , queue: 0/5)
+Barber wakes up...
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 99, 'ekonomika': 39}
+Barber found 0 new customers. (processed: 1/10, queue: 0/5)
+Barber is sleeping... (processed: 1/10 , queue: 0/5)
+Available commands:
+ help   - show this help message
+ start  - start the barber
+ stop   - stop the barber
+ status - show current status
+ edit   - edit config.json
+ exit   - exit the program
+Enter the config key to edit:
+Enter the new value for 'links_range':
+Config key 'links_range' updated to '[0, 2]'. Changes apply on next start.
+Barber is still working.
+Barber is done for the day!
+Processed customers:
+URL: https://www.idnes.cz/, Keywords: {'politika': 0, 'sport': 99, 'ekonomika': 39}, New Links: 440
+Enter a command (help for usage):
+Barber is sleeping... (processed: 0/10 , queue: 0/5)
+Barber wakes up...
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 99, 'ekonomika': 39}
+Barber found 0 new customers. (processed: 1/10, queue: 0/5)
+Barber is sleeping... (processed: 1/10 , queue: 0/5)
+Barber is done for the day!
+Processed customers:
+URL: https://www.idnes.cz/, Keywords: {'politika': 0, 'sport': 99, 'ekonomika': 39}, New Links: 440
+Enter a command (help for usage):
+Unknown command: st. Type 'help' for usage.
+Unknown command: sotp. Type 'help' for usage.
+Barber is not working.
+Barber is sleeping... (processed: 0/10 , queue: 0/5)
+Barber wakes up...
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 99, 'ekonomika': 39}
+Barber found 1 new customers. (processed: 1/10, queue: 1/5)
+Barber processes: https://www.idnes.cz/sport/formule
+Barber analyzed page: {'politika': 0, 'sport': 215, 'ekonomika': 11}
+Barber found 2 new customers. (processed: 2/10, queue: 2/5)
+Barber processes: https://www.idnes.cz/sport/formule/michael-schumacher-prvni-titul-damon-hill-kolize-30-let.A241112_213523_formule_jrv?zdroj=formule_hp
+Barber analyzed page: {'politika': 0, 'sport': 226, 'ekonomika': 8}
+Barber found 0 new customers. (processed: 3/10, queue: 1/5)
+Barber processes: https://www.idnes.cz/sport/biatlon/mistrovstvi-sveta-nove-mesto-na-morave-2024-program-vysledky.A230413_093429_biatlon_czo
+Barber analyzed page: {'politika': 0, 'sport': 216, 'ekonomika': 8}
+Barber found 1 new customers. (processed: 4/10, queue: 1/5)
+Barber processes: https://www.idnes.cz/sport/formule
+Barber analyzed page: {'politika': 0, 'sport': 210, 'ekonomika': 9}
+Barber found 0 new customers. (processed: 5/10, queue: 0/5)
+Barber is sleeping... (processed: 5/10 , queue: 0/5)
+Barber is done for the day!
+Processed customers:
+URL: https://www.idnes.cz/, Keywords: {'politika': 0, 'sport': 99, 'ekonomika': 39}, New Links: 440
+URL: https://www.idnes.cz/sport/formule, Keywords: {'politika': 0, 'sport': 215, 'ekonomika': 11}, New Links: 308
+URL: https://www.idnes.cz/sport/formule/michael-schumacher-prvni-titul-damon-hill-kolize-30-let.A241112_213523_formule_jrv?zdroj=formule_hp, Keywords: {'politika': 0, 'sport': 226, 'ekonomika': 8}, New Links: 271
+URL: https://www.idnes.cz/sport/biatlon/mistrovstvi-sveta-nove-mesto-na-morave-2024-program-vysledky.A230413_093429_biatlon_czo, Keywords: {'politika': 0, 'sport': 216, 'ekonomika': 8}, New Links: 255
+URL: https://www.idnes.cz/sport/formule, Keywords: {'politika': 0, 'sport': 210, 'ekonomika': 9}, New Links: 308
+Enter a command (help for usage):
+Barber is not working.

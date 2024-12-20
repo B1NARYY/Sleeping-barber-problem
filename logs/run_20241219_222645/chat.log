@@ -1,0 +1,72 @@
+Enter a command (help for usage):
+##################################################
+{
+  "initial_urls": ["https://www.idnes.cz/"],
+  "barber_delay_seconds": [0.5, 2],
+  "producer_delay_seconds": [0.2, 0.5],
+  "keywords": ["politika", "sport", "ekonomika"],
+  "max_customers": 10,
+  "max_queue_size": 5,
+  "enable_wakeup_from_stored_urls": true,
+  "new_customer_probability": 0.9,
+  "producer_interval": 1
+}
+
+##################################################
+Available commands:
+ help   - show this help message
+ start  - start the barber
+ stop   - stop the barber
+ status - show current status
+ edit   - edit config.json
+ exit   - exit the program
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 103, 'ekonomika': 23}, found 439 links
+Barber processed customer (processed: 1/10)
+New customer add in queue (queue: 1/5)
+New customer add in queue (queue: 2/5)
+Barber processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 103, 'ekonomika': 23}, found 439 links
+Barber processed customer (processed: 2/10)
+New customer add in queue (queue: 2/5)
+Barber processes: https://www.idnes.cz/ucet/ziskat-premium?url=https%3A%2F%2Fwww.idnes.cz%2Fpremium%3Fzdroj%3Dtopmenu
+New customer add in queue (queue: 2/5)
+Barber analyzed page: {'politika': 0, 'sport': 1, 'ekonomika': 1}, found 4 links
+Barber processed customer (processed: 3/10)
+New customer add in queue (queue: 3/5)
+Barber processes: https://www.idnes.cz/ucet/prihlasit?url=https%3A%2F%2Fwww.idnes.cz%2F
+New customer add in queue (queue: 3/5)
+Barber analyzed page: {'politika': 0, 'sport': 1, 'ekonomika': 1}, found 2 links
+Barber processed customer (processed: 4/10)
+New customer add in queue (queue: 4/5)
+Barber processes: https://www.idnes.cz/ucet
+New customer add in queue (queue: 4/5)
+Barber analyzed page: {'politika': 0, 'sport': 1, 'ekonomika': 1}, found 2 links
+Barber processed customer (processed: 5/10)
+New customer add in queue (queue: 5/5)
+Queue is full, cannot add new customer.
+Barber processes: https://www.idnes.cz/zpravy
+New customer add in queue (queue: 5/5)
+Barber analyzed page: {'politika': 8, 'sport': 28, 'ekonomika': 41}, found 350 links
+Barber processed customer (processed: 6/10)
+Queue is full, cannot add new customer.
+Barber processes: https://www.idnes.cz/zpravy/domaci
+Barber analyzed page: {'politika': 9, 'sport': 27, 'ekonomika': 4}, found 277 links
+Barber processed customer (processed: 7/10)
+New customer add in queue (queue: 5/5)
+Barber processes: https://www.idnes.cz/zpravy/zahranicni
+New customer add in queue (queue: 5/5)
+Queue is full, cannot add new customer.
+Barber analyzed page: {'politika': 7, 'sport': 27, 'ekonomika': 11}, found 268 links
+Barber processed customer (processed: 8/10)
+Queue is full, cannot add new customer.
+Barber processes: https://www.idnes.cz/zpravy/domaci/komentare-glosy-nazory.K307000
+Barber analyzed page: {'politika': 7, 'sport': 26, 'ekonomika': 19}, found 385 links
+Barber processed customer (processed: 9/10)
+New customer add in queue (queue: 5/5)
+Barber processes: https://www.idnes.cz/zpravy/cerna-kronika
+New customer add in queue (queue: 5/5)
+Barber analyzed page: {'politika': 6, 'sport': 27, 'ekonomika': 7}, found 261 links
+Barber processed customer (processed: 10/10)
+Queue is full, cannot add new customer.
+Barber is done for the day!

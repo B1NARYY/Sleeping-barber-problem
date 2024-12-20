@@ -1,0 +1,13 @@
+##################################################
+{
+  "initial_urls": ["https://www.idnes.cz/"],
+  "crawler_count": 1,
+  "producer_interval": 5,
+  "run_time": 30,
+  "delay_seconds": [3, 7],
+  "keywords": ["politika", "sport", "ekonomika"],
+  "max_customers": 20
+}
+
+##################################################
+(Console) Enter a command (help for usage):

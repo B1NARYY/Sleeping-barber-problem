@@ -1,0 +1,18 @@
+##################################################
+{
+  "initial_urls": ["https://www.idnes.cz/"],
+  "crawler_count": 1,
+  "producer_interval": 5,
+  "run_time": 30,
+  "delay_seconds": 5,
+  "keywords": ["politika", "sport", "ekonomika"]
+}
+
+##################################################
+(Console) Enter a command (help for usage):
+Barber is sleeping...
+Crawler has started.
+Barber wakes up and processes: https://www.idnes.cz/
+Barber analyzed page: {'politika': 0, 'sport': 90, 'ekonomika': 14}
+Barber found 435 new customers.
+Barber wakes up and processes: https://www.idnes.cz/ucet/ziskat-premium?url=https%3A%2F%2Fwww.idnes.cz%2Fpremium%3Fzdroj%3Dtopmenu
