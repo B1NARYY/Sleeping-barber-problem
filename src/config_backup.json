@@ -18,6 +18,6 @@
   "max_customers": 10,
   "max_queue_size": 5,
   "enable_wakeup_from_stored_urls": true,
-  "new_customer_probability": 0.9,
+  "new_customer_probability": 0.8,
   "producer_interval": 1
 }
