@@ -9,7 +9,11 @@ import threading
 import queue
 import json
 import os
+from colorama import Fore, Style, init
 from src.utils import user_print, print_config_file, explain_config
+
+# Initialize colorama for cross-platform compatibility
+init(autoreset=True)
 
 class Command:
     """Base class for all commands."""
@@ -20,53 +24,55 @@ class HelpCommand(Command):
     """Displays available commands and their usage."""
     def execute(self, ui):
         print_config_file()
-        user_print("Available commands:")
-        user_print(" help   - show this help message")
-        user_print(" start  - start the barber")
-        user_print(" stop   - stop the barber")
-        user_print(" status - show current status")
-        user_print(" edit   - edit config.json")
-        user_print(" exit   - exit the program")
-        user_print(" explain - explain config file structure")
+        ui.colored_print("Available commands:", Fore.BLUE)
+        ui.colored_print(" help   - show this help message", Fore.GREEN)
+        ui.colored_print(" start  - start the barber", Fore.GREEN)
+        ui.colored_print(" stop   - stop the barber", Fore.GREEN)
+        ui.colored_print(" status - show current status", Fore.GREEN)
+        ui.colored_print(" edit   - edit config.json", Fore.GREEN)
+        ui.colored_print(" exit   - exit the program", Fore.GREEN)
+        ui.colored_print(" explain - explain config file structure", Fore.GREEN)
 
 class StartCommand(Command):
     """Starts the simulation."""
     def execute(self, ui):
         if not ui.app_controller.is_running():
+            ui.colored_print("Simulation started successfully.", Fore.GREEN)
             ui.app_controller.start()
         else:
-            user_print("Barber is still working.")
+            ui.colored_print("Barber is still working.", Fore.YELLOW)
 
 class StopCommand(Command):
     """Stops the simulation."""
     def execute(self, ui):
         if ui.app_controller.is_running():
             ui.app_controller.stop()
+            ui.colored_print("Simulation stopped successfully.", Fore.RED)
         else:
-            user_print("Barber is not working.")
+            ui.colored_print("Barber is not working.", Fore.YELLOW)
         ui.show_summary()
 
 class StatusCommand(Command):
     """Displays the current simulation status."""
     def execute(self, ui):
-        user_print(ui.app_controller.status())
+        ui.colored_print(ui.app_controller.status(), Fore.BLUE)
 
 class ExitCommand(Command):
     """Exits the program."""
     def execute(self, ui):
         ui.running = False
         ui.app_controller.stop()
-        user_print("Exiting the program...")
+        ui.colored_print("Exiting the program...", Fore.RED)
 
 class EditCommand(Command):
     """Allows editing of the configuration file."""
     def execute(self, ui):
-        user_print("Enter the config key to edit:")
+        ui.colored_print("Enter the config key to edit:", Fore.BLUE)
         sys.stdout.write("(Console) ")
         sys.stdout.flush()
         key = sys.stdin.readline().strip()
         if key.lower() == 'cancel':
-            user_print("Edit canceled.")
+            ui.colored_print("Edit canceled.", Fore.YELLOW)
             return
 
         expected_schema = {
@@ -82,18 +88,18 @@ class EditCommand(Command):
         }
 
         if key not in expected_schema:
-            user_print(f"Unknown key '{key}'. Edit canceled.")
+            ui.colored_print(f"Unknown key '{key}'. Edit canceled.", Fore.RED)
             return
 
         value_type, validator = expected_schema[key]
 
-        user_print(f"Enter the new value for '{key}' (type '{value_type}') or 'cancel' to abort:")
+        ui.colored_print(f"Enter the new value for '{key}' (type '{value_type}') or 'cancel' to abort:", Fore.BLUE)
         while True:
             sys.stdout.write("(Console) ")
             sys.stdout.flush()
             value_str = sys.stdin.readline().strip()
             if value_str.lower() == 'cancel':
-                user_print("Edit canceled.")
+                ui.colored_print("Edit canceled.", Fore.YELLOW)
                 return
 
             try:
@@ -112,11 +118,11 @@ class EditCommand(Command):
                     if not (isinstance(parsed_value, list) and len(parsed_value) == 2 and all(isinstance(x, (int, float)) for x in parsed_value)):
                         raise ValueError
             except (ValueError, json.JSONDecodeError):
-                user_print("Invalid input, please try again.")
+                ui.colored_print("Invalid input, please try again.", Fore.RED)
                 continue
 
             if validator and not validator(parsed_value):
-                user_print("Invalid input, please try again.")
+                ui.colored_print("Invalid input, please try again.", Fore.RED)
                 continue
             break
 
@@ -126,7 +132,7 @@ class EditCommand(Command):
         data[key] = parsed_value
         with open(config_path, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
-        user_print(f"Config key '{key}' updated to '{parsed_value}'. Changes apply on next config reload.")
+        ui.colored_print(f"Config key '{key}' updated to '{parsed_value}'. Changes apply on next config reload.", Fore.GREEN)
 
 class ExplainCommand(Command):
     """Explains the structure of the configuration file."""
@@ -156,9 +162,13 @@ class ConsoleUI(threading.Thread):
             "explain": ExplainCommand()
         }
 
+    def colored_print(self, message, color):
+        """Prints a message in the specified color."""
+        print(f"{color}{message}{Style.RESET_ALL}")
+
     def run(self):
         """Starts the main command input loop."""
-        user_print("Enter a command (help for usage):")
+        self.colored_print("Enter a command (help for usage):", Fore.BLUE)
         while self.running:
             sys.stdout.write("(Console) ")
             sys.stdout.flush()
@@ -167,9 +177,9 @@ class ConsoleUI(threading.Thread):
                 if command_input:
                     self.handle_command(command_input)
             except UnicodeDecodeError:
-                user_print("Invalid input encoding. Please try again.")
+                self.colored_print("Invalid input encoding. Please try again.", Fore.RED)
             except KeyboardInterrupt:
-                user_print("\nKeyboardInterrupt received. Exiting.")
+                self.colored_print("\nKeyboardInterrupt received. Exiting.", Fore.RED)
                 self.running = False
                 self.app_controller.stop()
 
@@ -179,7 +189,7 @@ class ConsoleUI(threading.Thread):
         if cmd:
             cmd.execute(self)
         else:
-            user_print(f"Unknown command: {command_input}. Type 'help' for usage.")
+            self.colored_print(f"Unknown command: {command_input}. Type 'help' for usage.", Fore.YELLOW)
 
     def show_summary(self):
         """Displays a summary of processed customers."""

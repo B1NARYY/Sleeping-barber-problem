@@ -54,6 +54,8 @@ ZETA/
 - Windows (CMD or PowerShell) other platforms (Linux, MacOS) are also supported, but without specific instructions for installation and running.
 
 ### Steps to Install and Run
+#### Run in Editor
+- You have to start the main.py file in the src folder.
 
 #### Windows CMD
 
